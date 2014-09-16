@@ -10,6 +10,7 @@ The Electronics Club needs a website! We're building it.
 - About
   - Provide open lab space
   - Membership is $10/calendar year
+- How-To's
 
 ## Developer Setup
 
