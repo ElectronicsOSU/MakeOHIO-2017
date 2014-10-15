@@ -4,23 +4,9 @@ h2{
 	margin-right: auto;
 	text-align: center;
 }
+
 canvas{
 	display: inline-block;
 	border: #333333 2px solid;
 	margin: 0 auto;
-}
-
-@media (min-width: 320px){
-	h2 {font-size: 1em;}
-
-@media (min-width: 640px){
-	h2 {font-size: 1.2em;}
-}
-
-@media (min-width: 768px){
-	h2 {font-size: 1.4em;}
-}
-
-@media (min-width: 960px){
-	h2 {font-size: 1.8em;}
 }
