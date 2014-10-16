@@ -1,0 +1,35 @@
+Marwan
+------
+circuit design mini-app
+
+Eli
+---
+styling? (CSS and JS?)
+
+Colleen
+-------
+about page
+
+Michael
+-------
+home page
+
+Feras
+-----
+how-to's - oscilloscope part
+
+Will
+-----
+how-to's - soldering
+
+Griffin
+-------
+home page - mailing list
+
+Lady and gentlemen, the README.md file in our repo isn't super descriptive, so we're gonna have to get creative.
+
+Oh, everyone, we're gonna be using Crafty. 
+
+http://pixelhint.com/crafty-free-html5-responsive-template/
+
+Eli said he will be pushing the template files for it to the repo.
