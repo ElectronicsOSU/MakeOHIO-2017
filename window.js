@@ -31,3 +31,4 @@ function resizeCanvas(){
 	tcan.width = 200;
 	tcan.height = 600;
 }
+
