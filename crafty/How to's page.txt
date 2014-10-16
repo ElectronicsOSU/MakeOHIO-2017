@@ -1,0 +1,89 @@
+How to's page
+-----------------------
+link: https://sites.google.com/site/electronicsosu/lab
+
+The Electronics Club Lab is located in Caldwell 078. When open, it is open to any student or faculty member at OSU.
+
+Equipment for use includes:
+Digital Oscilloscope
+AC Function Generator
+DC 25V Power Supply
+Digital Multimeter
+Portable Multimeters (please don't take from lab)
+Several Soldering Irons with stands.
+AC Wall Outlets
+OSU Wireless Access
+Linux (Ubuntu 11.04) Computer
+NOTE: It can be difficult finding the room for the first time. The easiest way to get into the basement is to go through the door on Neil next to the Journalism Building. Immediately go down the stairs to your right. Once you are in the big power lab, turn left and the Electronics Lab is right there 
+--------------------------------------------------------------------------------------
+
+link: https://sites.google.com/site/electronicsosu/lab/computer
+
+The Electronics Club has an desktop computer for club use in the lab (Caldwell 078).
+
+An introductory manual to setting up an account and setting up internet access can be found under the documents page (computer.pdf)
+
+The computer is meant to provide a place for members to access the internet to look up schematics, designs, etc. Also, a number of programming and electronics tools are available including an Arduino IDE, and AVR/PIC programmers.
+
+ Current Software	Planned Software 
+Operating System
+Ubuntu 11.04 Natty Narwhal (x86) OS
+GNOME 2 Display Manager (gdm 2.32.1)
+
+Browsers
+Mozilla Firefox
+Google Chrome
+SRWare Iron (A "Google Free" browser based off of Chromium)
+
+Electronics (Analog)
+Eagle (SCH/PCB)
+EasySpice (GUI for ngspice)
+GNU-Cap (Simulator)
+Gspiceui (GUI for ngspice and GNU-Cap)
+gEDA (SCH/PCB)
+Kicad (SCH/PCB)
+ngspice (CLI Spice-Simulator)
+Oregano (Simulator)
+PCB Designer (PCB)
+qucs (Simulator)
+XCircuit (SCH)
+
+Electronics (Digital)
+FreeHDL (VHDL Simulator)
+gHDL (VHDL Compiler/Simulator)
+gplCver (Verilog Simulator)
+Verilator (Verilog Simulator)
+Verilog (Verilog Compiler)
+
+Microcontrollers
+(click here for detailed info)
+Arduino
+Atmel AVR
+Microchip PIC 
+
+Programming
+Sun Java JDK 6
+Open-JDK 6
+Eclipse Java IDE (with C/C++ support)
+Arduino IDE
+gcc/g++
+tex/latex/pdflatex 
+
+Editors
+vim
+emacs
+nano
+gedit 
+
+Plugins, File Specific Programs
+Adobe Reader 9.4.6
+Adobe Flash 11
+Sun Java JRE 6
+LibreOffice 3.4.4
+...	
+
+--------------------------------------------------------------------------------------
+Microcontroller Support
+
+link: https://sites.google.com/site/electronicsosu/lab/computer/microcontrollers
+
