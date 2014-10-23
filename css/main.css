@@ -570,6 +570,10 @@ header ul.social li a.gplus{
 .cta{
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 100px;
+
+    width: 800px;
+    margin: 0 auto;
 }
 
 .cta h3{
