@@ -499,6 +499,68 @@ header ul.social li a.gplus{
 }
 
 
+/*  Oscilloscope section  */
+.oscilloscope{
+    width: 100%;
+    overflow: hidden;
+}
+
+.oscilloscope_pic{
+    display: block;
+    width: 50%;
+    height: 405px;
+    float: left;
+    background: url('../img/oscilloscope.png') no-repeat;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.oscilloscope_details{
+    display: block;
+    width: 50%;
+    height: 245px;
+    float: left;
+    background: #3b3b3b;
+    padding: 80px 0;
+}
+
+.oscilloscope_details h3{
+    color: #fff;
+    font-family: "lato_bold", arial;
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 560px;
+    margin: 0 0 40px 40px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.oscilloscope_details p{
+    color: #ededed;
+    font-family: "lato_regular", arial;
+    font-size: 16px;
+    max-width: 560px;
+    margin: 0 0 40px 40px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.oscilloscope_details a{
+    color: #fff;
+    font-family: "lato_regular", arial;
+    font-size: 16px;
+    margin: 0 0 0 40px;
+    text-decoration: none;
+}
+
+.oscilloscope_details a span{
+    margin-left: 10px;
+}
 
 
 
