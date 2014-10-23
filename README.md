@@ -27,4 +27,3 @@ The Electronics Club needs a website! We're building it.
 We are using the [Shared Repository Model][srm]
 
 [srm]: https://guides.github.com/introduction/flow/index.html
-
