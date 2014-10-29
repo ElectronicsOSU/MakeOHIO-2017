@@ -10,9 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/main_responsive.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/carouFredSel.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/googleCalendar.js"></script>
 </head>
 <body>
 
@@ -41,6 +43,10 @@
 				</div>
 			</div>
 	</section><!--  End Billboard  -->
+	<section class="calendar">
+	<div id="gcal">
+		</div>
+	</section>
 
 	<section class="testimonials wrapper">
 
@@ -65,9 +71,10 @@
 	</section><!--  End cta  -->
 
 	<footer>
-		<img src="img/logo_footer.png" alt="Crafty">
-		<p class="rights">Made with love by the electronics club project team at <a href="http://cwdg.github.io">CWDG</a></p>
+		<!--<img src="img/logo_footer.png" alt="Crafty">-->
+		<p class="rights">Built by <a href="http://cwdg.github.io">CWDG</a></p>
 	</footer><!--  End Footer  -->
 
 </body>
+<script src="./js/gcal-events.min.js"></script>
 </html>
