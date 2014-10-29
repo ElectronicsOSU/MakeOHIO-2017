@@ -97,8 +97,9 @@ header{
 
 header .logo{
     float: left;
-    margin-top: 27px;
-    width: 200px;
+    margin-top: 3px;
+    margin-left: -35px;
+    width: 250px;
     height: auto;
 }
 
