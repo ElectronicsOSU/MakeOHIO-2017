@@ -26,6 +26,9 @@ Griffin
 -------
 home page - mailing list
 
+-------
+Xueke Wang
+
 Lady and gentlemen, the README.md file in our repo isn't super descriptive, so we're gonna have to get creative.
 
 Oh, everyone, we're gonna be using Crafty. 
