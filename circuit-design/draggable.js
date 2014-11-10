@@ -1,21 +1,29 @@
-$(function(){
-	$(and).draggable({
-		appendTo: "body",
-		helper: "clone"
-	});
-	$("#cart ol").droppable({
-		activeClass: "ui-state-default",
-		hoverClass: "ui-state-hover",
-		accept: ":not(.ui-sortable-helper)",
-		drop: function(event, ui){
-			$(this).find(".placeholder").remove();
-			$("<li></li>").text(ui.draggable.text()).appendTo(this);
-		}
-	}).sortable({
-		items: "li:not(.placeholder)",
-		sort: function() {
-			$(this).removeClass("ui-state-default");
-		}
-	});
+var dragging_area = new Kinetic.Stage({
+	container: 'tools',
+	width: 200,
+	height: 600,
 });
 
+var layer = new Kinetic.Layer();
+
+var and = new Image();
+and.onload = function() {
+  var image = new Kinetic.Image({
+    x: 10,
+    y: 10,
+    image: and,
+    width: 48,
+    height: 35
+  });
+};
+and.src = 'and.png';
+
+and.on('mouseover', function(){
+	document.body.style.cursor = 'pointer';
+});
+and.on('mouseout', function(){
+	document.body.style.cursor = 'default';
+});
+
+layer.add(and);
+dragging_area.add(layer);
