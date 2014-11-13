@@ -1,19 +1,46 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<link rel="stylesheet" href="circuit.css">
-		<script src="window.js"></script>
-		<script src="draggable.js"></script>
-		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-		<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-		<title>Baby's First Circuit Design App</title>
-	</head>
-	<body>
-		<h2>Homemade Circuit Design App for the Electronics Club!</h2>
-		<div align="center">
-			<canvas id="circuits" width="800" height="600"></canvas>
-			<canvas id="tools" width="200" height="600"></canvas>
-		</div>
-	</body>
-</html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+    <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.2.min.js"></script>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script defer="defer">
+      var stage = new Kinetic.Stage({
+        container: 'container',
+        width: 578,
+        height: 200
+      });
+      var layer = new Kinetic.Layer();
 
+      var and = new Image();
+	  and.onload = function() {
+	  var image = new Kinetic.Image({
+	      x: 10,
+	      y: 10,
+	      image: and,
+	      width: 48,
+	      height: 35
+	    });
+	  };
+	  and.src = 'and.png';
+
+      // add cursor styling
+      box.on('mouseover', function() {
+        document.body.style.cursor = 'pointer';
+      });
+      box.on('mouseout', function() {
+        document.body.style.cursor = 'default';
+      });
+
+      layer.add(box);
+      stage.add(layer);
+    </script>
+  </body>
+</html>      

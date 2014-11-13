@@ -475,6 +475,19 @@ header ul.social li a.gplus{
     -o-background-size: cover;
 }
 
+.soldering_pic{
+    display: block;
+    width: 50%;
+    height: 405px;
+    float: left;
+    background: url('../img/soldering.jpg') no-repeat;
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
 .oscilloscope_details{
     display: block;
     width: 50%;
