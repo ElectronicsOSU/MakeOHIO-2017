@@ -88,14 +88,15 @@
 header{
     width: 100%;
     height: 80px;
-    background: #353434;
-}
+    background-color: #000000;
+     /*background-image: url("../img/little_pluses.png");
+    background-repeat: repeat; */
 
 header .logo{
     float: left;
-    margin-top: 3px;
+    margin-top: 8px;
     margin-left: -35px;
-    width: 250px;
+    width: 150px;
     height: auto;
 }
 
@@ -181,7 +182,7 @@ header ul.social li a.gplus{
 
 .billboard .caption{
     margin-left: 515px;
-    margin-top: 220px;
+    margin-top: 100px;
 }
 
 .billboard .caption p{
@@ -610,7 +611,7 @@ header ul.social li a.gplus{
 .cta a.cta_btn{
     display: inline-block;
     padding: 20px 60px;
-    background-color: #65bf95;
+    background-color: #bb0000;
     color: #fff;
     font-family: "lato_regular", arial;
     font-size: 20px;
@@ -648,7 +649,9 @@ header ul.social li a.gplus{
 }
 
 
-/*  footer  */
+
+
+
 footer{
     padding: 100px 0;
     border-top: 1px #dedede solid;
@@ -659,7 +662,7 @@ footer{
 footer .rights{
     color: #3b3b3b;
     font-family: "lato_regular", arial;
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 30px;
     line-height: 25px;
 }
@@ -673,6 +676,36 @@ footer .rights a{
 
 a{
     color: #3b3b3b;
+}
+
+
+
+
+/*  footer  */
+footer{
+    padding: 15px 0;
+    border-top: 1px #dedede solid;
+    background: #000000;
+    text-align: center;
+}
+
+footer .rights{
+    color: #ffffff;
+    font-family: "lato_regular", arial;
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+footer .rights a{
+    text-decoration: none;
+    font-family: 'lato_bold', arial;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
 }
 
 
