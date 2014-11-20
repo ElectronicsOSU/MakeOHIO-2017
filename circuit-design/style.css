@@ -1,0 +1,82 @@
+h1{
+  margin: 0 auto;
+  text-align: center;
+}
+#wrapper{
+  margin: 0 auto;
+  display: inline-block;
+}
+.col {
+    float: left;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+#col1 {
+    width: 200px;
+    height: 600px;
+    border: 1px solid black;
+    display: inline-block;
+    position: center;
+}
+img.drag {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+#droppable {
+    width: 800px;
+    height: 600px;
+    display: inline-block;
+    border: 1px solid black;
+    position: center;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+ul li {
+    list-style: none;
+}
+.drag-list img {
+    width: 80px;
+    vertical-align: middle;
+    cursor: move;
+}
+.drag-list ul {
+    margin: 0px;
+    padding: 0px;
+}
+.drag-list li {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.remove-drag-hover {
+    background-color: #ED4949;
+}
+.drop-area {
+    background-color: #afd1b2;
+}
+.xicon {
+    margin-top: 4px;
+    position: absolute;
+    margin-left: -17px;
+    color: #FFF;
+    font: message-box;
+    text-decoration: none;
+}
+.xicon:hover {
+    background-color: #fff;
+    color: #000;
+    width: 13px;
+    height: 20px;
+    text-align: center;
+}
+.tip {
+    font-size: 12px;
+    clear: both;
+}

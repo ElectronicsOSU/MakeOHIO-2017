@@ -1,29 +1,50 @@
-var dragging_area = new Kinetic.Stage({
-	container: 'tools',
-	width: 200,
-	height: 600,
+window.onload=function(){
+var x = null;
+//Make element draggable
+$(".drag").draggable({
+    helper: 'clone',
+    cursor: 'move',
+    tolerance: 'fit',
+    revert: true
 });
 
-var layer = new Kinetic.Layer();
+$("#droppable").droppable({
+    accept: '.drag',
+    activeClass: "drop-area",
+    drop: function (e, ui) {
+        if ($(ui.draggable)[0].id != "") {
 
-var and = new Image();
-and.onload = function() {
-  var image = new Kinetic.Image({
-    x: 10,
-    y: 10,
-    image: and,
-    width: 48,
-    height: 35
-  });
-};
-and.src = 'and.png';
-
-and.on('mouseover', function(){
-	document.body.style.cursor = 'pointer';
+            x = ui.helper.clone();
+            ui.helper.remove();
+            x.draggable({
+                helper: 'original',
+                cursor: 'move',
+                //containment: '#droppable',
+                tolerance: 'fit',
+                drop: function (event, ui) {
+                    $(ui.draggable).remove();
+                }
+            });
+            
+            x.addClass('remove');
+            var el = $("<span><a href='Javascript:void(0)' class=\"xicon delete\" title=\"Remove\">X</a></span>");
+            $(el).insertAfter($(x.find('img')));
+            x.appendTo('#droppable');
+            $('.delete').on('click', function () {
+                $(this).parent().parent('span').remove();
+            });
+            $('.delete').parent().parent('span').dblclick(function () {
+                $(this).remove();
+            });
+        }
+    }
 });
-and.on('mouseout', function(){
-	document.body.style.cursor = 'default';
-});
 
-layer.add(and);
-dragging_area.add(layer);
+$("#remove-drag").droppable({
+    drop: function (event, ui) {
+        $(ui.draggable).remove();
+    },
+    hoverClass: "remove-drag-hover",
+    accept: '.remove'
+});
+}

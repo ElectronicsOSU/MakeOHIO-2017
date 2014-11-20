@@ -1,46 +1,53 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <style>
-      body {
-        margin: 0px;
-        padding: 0px;
-      }
-    </style>
-    <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.2.min.js"></script>
-  </head>
-  <body>
-    <div id="container"></div>
-    <script defer="defer">
-      var stage = new Kinetic.Stage({
-        container: 'container',
-        width: 578,
-        height: 200
-      });
-      var layer = new Kinetic.Layer();
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-      var and = new Image();
-	  and.onload = function() {
-	  var image = new Kinetic.Image({
-	      x: 10,
-	      y: 10,
-	      image: and,
-	      width: 48,
-	      height: 35
-	    });
-	  };
-	  and.src = 'and.png';
+<title>Electronics Club Circuit Design Mini-App</title>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<script type='text/javascript' src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type='text/javascript' src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<link rel="stylesheet" href="style.css">
+<script src="draggable.js"></script>
 
-      // add cursor styling
-      box.on('mouseover', function() {
-        document.body.style.cursor = 'pointer';
-      });
-      box.on('mouseout', function() {
-        document.body.style.cursor = 'default';
-      });
+</head>
+<body>
+  <h1>Electronics Club Circuit Design Mini-App</h1>
+  <div id="wrapper">
+    <div class="col" id="droppable"></div>
+    <div class="col" id="col1">
+        <div id="drag-list" class="drag-list">
+            <ul>
+                <li>
+                <span id="drag1" class="drag"><img src="and.png" width="100%" height="100%" /></span>
+                <span>AND</span> 
+                </li>
+                <li>
+                <span id="drag2" class="drag"><img src="or.png" width="100%" height="100%" /></span>
+                <span>OR</span> 
+                </li>
+                <li>
+                <span id="drag3" class="drag"><img src="not.png" width="100%" height="100%" /></span>
+                <span>NOT</span> 
+                </li>
+                <li>
+                <span id="drag1" class="drag"><img src="xor.png" width="100%" height="100%" /></span>
+                <span>XOR</span> 
+                </li>
+                <li>
+                <span id="drag2" class="drag"><img src="xnor.png" width="100%" height="100%" /></span>
+                <span>XNOR</span> 
+                </li>
+                <li>
+                <span id="drag3" class="drag"><img src="nor.png" width="100%" height="100%" /></span>
+                <span>NOR</span> 
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+  
+</body>
 
-      layer.add(box);
-      stage.add(layer);
-    </script>
-  </body>
-</html>      
+
+</html>
