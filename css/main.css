@@ -518,7 +518,7 @@ header ul.social li a.fb{
     display: block;
     width: 50%;
     height: 405px;
-    float: left;
+    float: right;
     background: url('../img/oscilloscope.png') no-repeat;
 
     background-size: cover;
