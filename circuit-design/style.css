@@ -5,6 +5,7 @@ h1{
 #wrapper{
   margin: 0 auto;
   display: inline-block;
+  width:100%;
 }
 .col {
     float: left;
