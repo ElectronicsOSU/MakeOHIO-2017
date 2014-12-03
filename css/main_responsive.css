@@ -147,6 +147,10 @@ header nav ul li a:hover{
     color: #bb0000;
 }
 
+header nav ul li a.current{
+    color: #bb0000;
+}
+
 header ul.social{
     float: right;
     list-style: none;
