@@ -169,7 +169,7 @@ a:after {
 
 #showcase {
 	display: block;
-	background-color: #34495e;
+	background-color: #6B7F8C;
 	padding-top: 0px;
 	padding-bottom: 40px;
     
@@ -360,9 +360,10 @@ animation: animationFrames1 ease 1s;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
-
+background-color: inherit;
     width: auto;
     margin: 0 auto;
+    z-index: 1;
 }
 
 .cta h3{
@@ -438,10 +439,6 @@ animation: animationFrames1 ease 1s;
     
 }
 
-#landing {
-  position: absolute;
-  right: 50%;
-}
 
 
 
