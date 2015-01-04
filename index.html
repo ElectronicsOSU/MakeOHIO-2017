@@ -1,62 +1,255 @@
-<!-- This is a modified version of the Crafty web templating theme. -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>OSU Electronics Club</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main_responsive.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/carouFredSel.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/googleCalendar.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<header>
-		<div class="wrapper">
-			<img src="img/electronics_club_logo_white.png" alt="OSU Electronics Club!" class="logo">
-			<a href="#" class="menu_icon" id="menu_icon"></a>
-			<nav id="nav_menu">
-				<ul>
-					<li><a class="current" href="index.html">Home</a></li>
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="howto.html">How To</a></li>
-					<li><a href="news.html">News</a></li>
-				</ul>
-			</nav>
+    <title>Eli Gladman</title>
+    <meta name="Eli Gladman">
 
-			<ul class="social">
-				<li><a class="fb" href="https://www.facebook.com/groups/electronicsosu" target="_blank"></a></li>
-			</ul>
-		</div>
-	</header><!--  End Header  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
 
-	<section class="billboard">
-			<div class="wrapper">
-				<div class="caption">
-					<p>Have you tried turning it on and off again?</p>
-				</div>
-			
-				<section class="cta">
-					<a href="https://lists.osu.edu/mailman/listinfo/electronicsclub" class="cta_btn">Sign up for our mailing list</a>
-					
-				</section>
-			
-			</div>
-	</section><!--  End Billboard  -->
+   
+  </head>
+
+    
+    
+    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#"><b>The Electronics Club</b></a>
+	        </div>
+	        
+              
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+	              
+                    <li><a href="#" class="smoothscroll">News</a></li>
+	               <li><a href="#">How To</a></li>
+	               <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                </ul>
+
+	           <a href="https://github.com/ElectronicsOSU" > <img src="assets/img/github.png" alt="Github Logo" class="octocat" id="github">  </a>
+                
+                
+
+	        </div><!--/.nav-collapse -->
+	      </div>
+    </div>               
+
+<!-- ===== BACKGROUND IMAGE ===== -->    
+    
+<div id=landing>
+    
+    <img src="assets/img/circuit.jpg" alt="PCB" class="billboard">           
+</div> 
+    
+                    
+<!-- ===== INTRO WRAP ===== -->
+	<div id="intro">    
+    
+</div>
+<!-- ===== ACCORDION CONTAINERS ===== -->
+
+<div id="features">
+    <div class="container">
+
+        <div class="row">
+            <h1 class="centered">BACON</h1>
+<br>
+<br>
+
+<!-- ACCORDION -->
+<div class="accordion ac" id="accordion2">
+
+
+
+<div class="accordion-group">
+    
+    <div class="accordion-heading">    
+        <a class="accordion-toggle" data-parent="#accordion1" data-toggle="collapse" href="#collapseOne">One</a>
+    </div>
+
+        <div class="accordion-body collapse" id="collapseOne">
+            <div class="accordion-inner">
+
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo nec sapien dapibus sodales. Aenean et congue ex, id elementum erat. Proin posuere nunc nec ante feugiat commodo. Proin consequat eros posuere pulvinar convallis. Proin congue sed metus vel laoreet. In aliquam nibh ut finibus sodales. Etiam sed nunc fermentum, fermentum magna in, viverra enim. Curabitur urna massa, iaculis eu dolor facilisis, tempor finibus felis. Aenean consectetur felis a orci gravida, vel fringilla ipsum vulputate. Morbi egestas nunc non ipsum accumsan, at sollicitudin justo venenatis. 
+    </p>
+    
+            </div>
+        </div>
+</div>
+    
+    
+<div class="accordion-group">
+
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-parent="#accordion2" data-toggle="collapse" href="#collapseTwo">Two</a>
+    </div>
+
+        <div class="accordion-body collapse" id="collapseTwo">
+            <div class="accordion-inner">
+
+    <p>
+    Maecenas accumsan nibh enim, in tincidunt mauris faucibus in. Suspendisse arcu est, tempus ut massa vel, tempus placerat tortor. Morbi congue ut ex at viverra. In id nisi vestibulum dui varius lobortis. Fusce porttitor erat vulputate, interdum orci pellentesque, scelerisque eros. Nam non scelerisque ipsum, vel porta neque. Sed sodales est et tempor pharetra. In nibh velit, molestie id efficitur sit amet, ornare id tellus. Curabitur tristique risus vel odio auctor, ut aliquam justo interdum. Nullam et tempor diam, vitae dignissim ex. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam arcu ipsum, tempus et dolor non, tempus mattis ipsum. Integer nec neque nec urna tincidunt lobortis. 
+    </p>
+    
+            </div>
+        </div>
+</div>
+
+
+<div class="accordion-group">
+    
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-parent="#accordion2" data-toggle="collapse" href="#collapseThree">Three</a>
+    </div>
+
+        <div class="accordion-body collapse" id="collapseThree">
+            <div class="accordion-inner">
+
+    <p>
+     Quisque eget tincidunt diam, pulvinar rhoncus ante. Suspendisse potenti. Nunc eget lacus volutpat, vestibulum mi sed, tincidunt lorem. Cras sed purus placerat, posuere lectus eget, gravida quam. Vestibulum arcu quam, feugiat et mauris in, sagittis egestas orci. In hendrerit euismod tellus, sed ultricies ipsum laoreet at. Aenean nec posuere est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia sagittis ullamcorper. Maecenas vitae auctor purus. Integer interdum imperdiet dolor dignissim malesuada. Quisque vel blandit erat, vitae dapibus ipsum. Vivamus viverra id sapien quis tempus.
+
+
+    </p>
+    
+            </div>
+        </div>
+</div>
+
+
+<div class="accordion-group">
+
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-parent="#accordion2" data-toggle="collapse" href="#collapseFour">Four</a>
+    </div>
+
+        <div class="accordion-body collapse" id="collapseFour">
+            <div class="accordion-inner">
+
+    <p>
+    Nullam non eros a neque ultrices vestibulum. Suspendisse maximus dui id malesuada egestas. Cras pretium venenatis dolor, quis rutrum nulla rutrum at. Aenean porta lacus lobortis nunc scelerisque, nec feugiat eros malesuada. Phasellus id mauris consequat, eleifend turpis ut, suscipit tellus. Donec augue magna, faucibus in velit sed, tempus sagittis quam. Fusce sed lorem quis sapien vulputate volutpat. Nam interdum pharetra risus, in vestibulum ligula ultrices ac. Aliquam vel dolor ac odio pretium finibus at id mi. Aliquam viverra ex ac mollis dapibus. Curabitur et nisl id diam pretium placerat. Phasellus pellentesque neque sit amet mi ornare bibendum. Vivamus nisi erat, eleifend in bibendum a, iaculis vel tortor.
+    </p>
+
+            </div>
+        </div>
+</div>
+
+
+<div class="accordion-group">
+    
+    <div class="accordion-heading">
+        <a class="accordion-toggle" data-parent="#accordion2" data-toggle="collapse" href="#collapseFive">Five</a>
+    </div>
+
+        <div class="accordion-body collapse" id="collapseFive">
+            <div class="accordion-inner">
+    
+    <p>
+    In ullamcorper purus quam, sed sagittis quam rhoncus at. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent blandit et tellus vel aliquet. Quisque eleifend eget tellus sit amet faucibus. Integer egestas bibendum scelerisque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam consectetur placerat ex in maximus. Vivamus pharetra nulla et tincidunt dapibus. Integer id orci ac lorem convallis auctor. Aliquam bibendum massa eget nibh semper sodales. Sed hendrerit finibus odio, et fermentum lorem vehicula eu. Ut sollicitudin turpis urna, vel dapibus mauris consectetur vitae. Sed non tincidunt lacus, quis rutrum purus. Duis at purus bibendum, dignissim massa ac, volutpat quam. Nam vitae risus at erat imperdiet placerat eget rutrum risus. 
+    </p>
+    
+            </div>
+        </div>
+</div>
+
+            
+</div>
+</div>
+</div>
+</div>
+    
+    
+<!-- ===== ABOUT ===== -->
+
+<section id="showcase" name="showcase"></section>
+
+    <div id="showcase">
+        <div class="container">
+            <div class="col-lg-12">
+
+
+<h1 class="centered">Title One</h1>
+
+    <p>
+    Nullam non eros a neque ultrices vestibulum. Suspendisse maximus dui id malesuada egestas. Cras pretium venenatis dolor, quis rutrum nulla rutrum at. Aenean porta lacus lobortis nunc scelerisque, nec feugiat eros malesuada. Phasellus id mauris consequat, eleifend turpis ut, suscipit tellus. Donec augue magna, faucibus in velit sed, tempus sagittis quam. Fusce sed lorem quis sapien vulputate volutpat. Nam interdum pharetra risus, in vestibulum ligula ultrices ac. Aliquam vel dolor ac odio pretium finibus at id mi. Aliquam viverra ex ac mollis dapibus. Curabitur et nisl id diam pretium placerat. Phasellus pellentesque neque sit amet mi ornare bibendum. Vivamus nisi erat, eleifend in bibendum a, iaculis vel tortor. 
+    </p>
+
+                
+<h1 class="centered">Title Two</h1>
+
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo nec sapien dapibus sodales. Aenean et congue ex, id elementum erat. Proin posuere nunc nec ante feugiat commodo. Proin consequat eros posuere pulvinar convallis. Proin congue sed metus vel laoreet. In aliquam nibh ut finibus sodales. Etiam sed nunc fermentum, fermentum magna in, viverra enim. Curabitur urna massa, iaculis eu dolor facilisis, tempor finibus felis. Aenean consectetur felis a orci gravida, vel fringilla ipsum vulputate. Morbi egestas nunc non ipsum accumsan, at sollicitudin justo venenatis. 
+    </p>
+                
+</div>
+</div>
+
+        <div class="img-responsive">
+            
+    <section class="cta">
+        <a class="cta_btn" href="#">Press Me</a>
+    </section>
+        
+        </div>
+    </div>    
+    
+<!-- ===== CONTACT INFORMATION ===== -->
 	
+    <section id="contact" name="contact"></section>
 
+    <div id="footerwrap">
+        <div class="container">
+            <div class="col-lg-4">
+
+<h3>Location</h3>
+
+    <p>Caldwell 068</p>
+
+            </div>
+
+            <div class="col-lg-4">
+
+<h3>Email</h3>
+
+    <p>electronicsosu@gmail.com</p>
+            
+            </div>
+
+            <div class="col-lg-4">
+
+<h3>Phone</h3>
+
+        <p>888-888-888</p>
+
+            </div>
+        
+        </div>
+    </div>
     
     
-<!-- ===== FOOTER ===== -->
-	<footer>
-		<p class="rights">Built by the <a href="http://cwdg.github.io">CWDG</a></p>
-	</footer><!--  End Footer  -->
+<!-- ===== BACK TO TOP BUTTON ===== -->
 
+<a href="#" class="go-top">&#9650;</a>
+    
 </body>
-<script src="./js/gcal-events.min.js"></script>
+
 </html>
