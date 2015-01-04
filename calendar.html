@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Eli Gladman</title>
+    <meta name="Eli Gladman">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+    <link rel='stylesheet' href='bower_components/fullcalendar/dist/fullcalendar.min.css' />
+    <script src='bower_components/moment/min/moment.min.js'></script>
+    <script src='bower_components/fullcalendar/dist/fullcalendar.min.js'></script>
+    <script type='text/javascript' src='bower_components/fullcalendar/dist/gcal.js'></script>
+
+  </head>
+
+
+
+    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#"><b>The Electronics Club</b></a>
+	        </div>
+
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+
+                    <li><a href="#" class="smoothscroll">News</a></li>
+	               <li><a href="#">How To</a></li>
+	               <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                </ul>
+
+	           <a href="https://github.com/ElectronicsOSU" > <img src="assets/img/github.png" alt="Github Logo" class="octocat" id="github">  </a>
+
+
+
+	        </div><!--/.nav-collapse -->
+	      </div>
+    </div>
+
+<!-- ===== BACKGROUND IMAGE ===== -->
+
+<div id=landing>
+
+    <img src="assets/img/circuit.jpg" alt="PCB" class="billboard">
+</div>
+
+
+<!-- ===== INTRO WRAP ===== -->
+	<div id="intro">
+
+</div>
+<!-- ===== ACCORDION CONTAINERS ===== -->
+
+<div id="features">
+    <div class="container">
+
+        <div class="row">
+          <div id="calendar"></div>
+<br>
+<br>
+
+<!-- ===== CONTACT INFORMATION ===== -->
+
+    <section id="contact" name="contact"></section>
+
+    <div id="footerwrap">
+        <div class="container">
+            <div class="col-lg-4">
+
+<h3>Location</h3>
+
+    <p>Caldwell 068</p>
+
+            </div>
+
+            <div class="col-lg-4">
+
+<h3>Email</h3>
+
+    <p>electronicsosu@gmail.com</p>
+
+            </div>
+
+            <div class="col-lg-4">
+
+<h3>Phone</h3>
+
+        <p>888-888-888</p>
+
+            </div>
+
+        </div>
+    </div>
+
+
+<!-- ===== BACK TO TOP BUTTON ===== -->
+
+<a href="#" class="go-top">&#9650;</a>
+
+</body>
+
+<script type='text/javascript'>
+$(document).ready(function() {
+  $('#calendar').fullCalendar({
+    header: {
+    	left: 'prev,next today',
+    	center: 'title',
+    	right: 'month,agendaWeek,agendaDay'
+    },
+    googleCalendarApiKey: 'AIzaSyBu5kL2kgj9AZXCM8kfSLukPx1Vb7bRSh4',
+    events: {
+      googleCalendarId: 'electronicsosu@gmail.com',
+      timezone: 'America/New_York'
+    }
+  });
+});
+</script>
+
+</html>
