@@ -137,6 +137,10 @@ a:after {
 }
 
 
+#intro p {
+text-align: center;
+}
+
 
 #features {
 	padding-top: 50px;
@@ -148,7 +152,7 @@ a:after {
 }
 
 #features p {
-    text-align: justify;
+    text-align: center;
     
 }
 
@@ -356,64 +360,6 @@ animation: animationFrames1 ease 1s;
 }
 
 
-.cta{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 50px;
-background-color: inherit;
-    width: auto;
-    margin: 0 auto;
-    z-index: 1;
-}
-
-.cta h3{
-    color: #6b6b6b;
-    font-family: "Raleway";
-    font-weight: 500;
-    font-size: 34px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.cta p{
-    color: #7f7c7c;
-    font-family: "Lato";
-    font-weight: bold;
-    font-size: 18px;
-    margin-top: 20px;
-    letter-spacing: .5px;
-}
-
-.cta a.cta_btn{
-    display: inline-block;
-    padding: 20px 60px;
-    background-color: #d50000;
-    color: #fff;
-    font-family: "Lato";
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-    margin-top: 20px;
-    border-color: #DDD;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    transition: all 0.3s ease 0s;
-
-        
-   
-}
-
-.cta a.cta_btn:hover{
-    background-color: #BB0000;
-}
-
-.cta .cta_sep{
-    display: block;
-    width: 1px;
-    height: 100px;
-    background: #dedede;
-    margin: 0 auto;
-}
 
 
 
