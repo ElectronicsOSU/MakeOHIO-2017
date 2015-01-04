@@ -195,13 +195,12 @@ text-align: center;
 #footerwrap {
 	background-color: #2f2f2f;
 	color: white;
-	padding-top: 40px;
-	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	text-align: center;
 }
 
-#footerwrap h3 {
-	font-size: 28px;
+#footerwrap h4 {
 	color: white;
     
 }
