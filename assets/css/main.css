@@ -493,3 +493,12 @@ background-color: inherit;
     overflow: hidden;
    
 }
+
+
+#calendar {
+padding-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 50px;
+}
+    

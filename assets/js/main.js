@@ -1,9 +1,3 @@
-
-$('.carousel').carousel({
-	  interval: 3500
-	})
-
-
 /* Back to Top */
 
 $(document).ready(function() {
