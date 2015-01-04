@@ -171,7 +171,7 @@ a:after {
 	display: block;
 	background-color: #6B7F8C;
 	padding-top: 0px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
     
 }
 
@@ -182,7 +182,7 @@ a:after {
 #showcase p {
     color: white;
     display: block;
-    text-align: justify;
+    text-align: center;
     padding-top: 0px;
     padding-bottom: 20px;
 }
