@@ -19,6 +19,62 @@
     <script src="assets/js/smoothscroll.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.js"></script>
+    <style>
+      #ribbon {
+      
+      margin: 0;
+      position:relative;
+      color: #ffffff;
+      font: 20px 'Raleway';
+          padding-top: 10px;
+          padding-bottom: 10px;
+      text-align: center;
+      letter-spacing:0.1em;
+      text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+      box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
+            inset 0px 0px 20px rgba(0,0,0,0.1),
+            0px 1px 1px rgba(0,0,0,0.4);
+      background-color: #2F2F42;
+      margin-bottom: 20px;
+       
+        display: inline-block;
+    }
+    
+
+    
+  #ribbon:before {
+      left:-1.35em;
+      border-right-width: .75em;
+      border-left-color:transparent;
+          
+    }
+    
+  #ribbon:after {
+      right:-1.35em;
+      border-left-width: .75em;
+      border-right-color:transparent;
+    }
+    
+  #content:before, #content:after {
+      content:"";
+      bottom:-.5em;
+      position:absolute;
+      display:block;
+      border-style:solid;
+      border-color: #232332 transparent transparent transparent;
+      z-index:1;
+    }
+    
+  #content:before {
+      left: 0;
+      border-width: .5em 0 0 .5em;
+    }
+    
+  #content:after {
+      right: 0;
+      border-width: .5em .5em 0 0;
+    }
+  </style>
 
 
   </head>
@@ -54,52 +110,39 @@
     </div>
 
 <!-- ===== INTRO WRAP ===== -->
-<!-- <div id="intro">
+<div id="intro">
+
   <div class="container">
-    <div class="col-lg-12">
-      <h1 class="centered">Officers</h1>
+    <div class="centered">
+      <div id="ribbon">
+        <span id="content">&nbsp;&nbsp;Soldering workshops will be held this semester!&nbsp;&nbsp;</span>
+      </div> 
     </div>
-  </div> -->
+  </div>
+
+
 
 <!-- ===== ACCORDION CONTAINERS ===== -->
   <div id="features">
     <div class="container">
       <div class="row">
         <h1 class="centered">Officers</h1>
-        <div id="showcase">
           <div class="container">
             <div class="container">
-              <div class="col-sm-6 col-md-6 col-lg-6">
+              <div class="col-sm-12 col-md-12 col-lg-12">
                 <h2 class="centered">President</h2>
                 <h4 class="centered">Eric Bauer</h4>
-              </div>
-            </div>
-            <div class="container">
-              <div class="col-sm-6 col-md-6 col-lg-6">
                 <h2 class="centered">Vice President</h2>
                 <h4 class="centered">Martin Troth</h4>
-              </div>
-            </div>
-            <div class="container">
-              <div class="col-sm-6 col-md-6 col-lg-6">
                 <h2 class="centered">Treasurer</h2>
                 <h4 class="centered">Joe Warner</h4>
-              </div>
-            </div>
-            <div class="container">
-              <div class="col-sm-6 col-md-6 col-lg-6">
                 <h2 class="centered">Social Chair</h2>
                 <h4 class="centered">Alex Fuhr</h4>
-              </div>
-            </div>
-            <div class="container">
-              <div class="col-sm-6 col-md-6 col-lg-6">
                 <h2 class="centered">Webmaster</h2>
                 <h4 class="centered">Eli Gladman</h4>
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>
