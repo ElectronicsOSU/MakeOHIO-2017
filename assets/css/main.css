@@ -466,8 +466,22 @@ padding-bottom: 50px;
 
 
 #officers h3{
-    padding-top: 50px;
     
+    
+}
+
+
+#officers h1{
+    padding-bottom: 50px;
+    
+        
+}
+
+
+#officers h4{
+    padding-bottom: 75px;
+    
+        
 }
 
 
