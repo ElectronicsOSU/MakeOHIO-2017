@@ -475,3 +475,12 @@ padding-bottom: 50px;
     padding-top: 30px;
 }
 
+/* Rounded avatar */
+#wrap{
+  text-align: center;
+    
+}
+.avatar {
+	border-radius: 50% 50% 50% 50%;
+    width: 50%;
+}
