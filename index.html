@@ -20,6 +20,68 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/bootstrap.js"></script>
 
+    <style>
+      #ribbon {
+      
+      margin: 0;
+      position:relative;
+      color: #ffffff;
+      font: 20px 'Raleway';
+          padding-top: 10px;
+          padding-bottom: 10px;
+      text-align: center;
+      letter-spacing:0.1em;
+      text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+      box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
+            inset 0px 0px 20px rgba(0,0,0,0.1),
+            0px 1px 1px rgba(0,0,0,0.4);
+      background-color: #2F2F42;
+      margin-bottom: 20px;
+       
+        display: inline-block;
+    }
+    
+
+    
+  #ribbon:before {
+      left:-1.35em;
+      border-right-width: .75em;
+      border-left-color:transparent;
+          
+    }
+    
+  #ribbon:after {
+      right:-1.35em;
+      border-left-width: .75em;
+      border-right-color:transparent;
+    }
+
+  #content{
+    padding-left:5px;
+    padding-right:5px;
+  }
+    
+  #content:before, #content:after {
+      content:"";
+      bottom:-.5em;
+      position:absolute;
+      display:block;
+      border-style:solid;
+      border-color: #232332 transparent transparent transparent;
+      z-index:1;
+      margin:0 auto;
+    }
+    
+  #content:before {
+      left: 0;
+      border-width: .5em 0 0 .5em;
+    }
+    
+  #content:after {
+      right: 0;
+      border-width: .5em .5em 0 0;
+    }
+  </style>
 
   </head>
 
@@ -73,6 +135,14 @@
 
 <!-- ===== INTRO WRAP ===== -->
 	<div id="intro">
+
+    <div class="container">
+    <div class="centered">
+      <div id="ribbon">
+        <span id="content">Soldering workshops will be held this semester!</span>
+      </div> 
+    </div>
+  </div>
 
 
 
