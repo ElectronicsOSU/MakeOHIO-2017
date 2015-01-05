@@ -121,20 +121,15 @@ a:after {
 
 #intro {
 	padding-top: 50px;
+    padding-bottom: 50px;
 	border-top: #bdc3c7 solid 5px;
     background-color: #EAEAEA;
 }
 
 #intro h3 {
-    padding-bottom: 50px;
     transition: all 0.3s ease;
 }
 
-#intro h3:hover {
-    color: #434343;
-    transition: all 0.3s ease;
-    font-weight: 400;
-}
 
 
 #intro p {
@@ -466,11 +461,15 @@ padding-bottom: 50px;
 
 #officers {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 
 #officers h3{
-    padding-top: 75px;
+    padding-top: 50px;
     
 }
+
+
+
+
