@@ -126,15 +126,9 @@ a:after {
 }
 
 #intro h3 {
-    padding-bottom: 50px;
     transition: all 0.3s ease;
 }
 
-#intro h3:hover {
-    color: #434343;
-    transition: all 0.3s ease;
-    font-weight: 400;
-}
 
 
 #intro p {
