@@ -1,116 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>OSU Electronics Club</title>
-	<meta charset="utf-8">
-	<meta name="author" content="pixelhint.com">
-	<meta name="description" content="Crafty is a stunning HTML5/CSS3 multi-purpose template, well-coded, commented code and easy to customize"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main_responsive.css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/carouFredSel.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>The Electronics Club at OSU</title>
+    <meta name="The Electronics Club at OSU">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
 </head>
-<body>
 
-	<header>
-		<div class="wrapper">
-			<a href="index.html"><img src="img/electronics_club_logo_white.png" alt="OSU Electronics Club!" class="logo"></a>
+<div id="navigation" class="navbar navbar-default navbar-fixed-top">
+    
+<div class="container">
+    <div class="navbar-header">
+	   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	       <span class="icon-bar"></span>
+	       <span class="icon-bar"></span>
+	       <span class="icon-bar"></span>
+	   </button>
+	          
+<a class="navbar-brand" href="index.html"><b>The Electronics Club</b></a>
+    
+    </div>
 
-			<a href="#" class="menu_icon" id="menu_icon"></a>
-			<nav id="nav_menu">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a class="current" href="about.html">About Us</a></li>
-					<li><a href="howto.html">How To</a></li>
-					<li><a href="news.html">News</a></li>
-				</ul>
-			</nav>
+<div class="navbar-collapse collapse">
+        
+    <ul class="nav navbar-nav">
+        
+        <li><a href="about.html" class="smoothScroll">About</a></li>
+                  
+        <li><a href="calendar.html" class="smoothScroll">Calendar</a></li>
+                  
+        <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                  
+        <li><a href="https://lists.osu.edu/mailman/listinfo/electronicsclub" class="smoothScroll">Mailing List</a></li>
+                </ul>
 
-			<ul class="social">
-				<li><a class="fb" href="https://www.facebook.com/groups/electronicsosu" target="_blank"></a></li>
-			</ul>
-		</div>
-	</header>
+    <a href="https://github.com/ElectronicsOSU" >
+        
+        <img src="assets/img/github.png" alt="Github Logo" class="octocat" id="github">  
+    
+    </a>
 
-	<!--  End Header  -->
+</div><!--/.nav-collapse -->
+</div>
+</div>
 
-	<section class="billboard">
-			<div class="wrapper">
-				<div class="caption">
-					<p>We're awesome.  Learn about us.</p>
-				</div>
-			</div>
-	</section>
+    
+<!-- ===== OFFICERS <BEGINNING> ===== -->    
 
-	<!--  End Billboard  -->
-
-	<section class="features">
-
-		<div class="wrapper">
-				<div class="feature">
-					<div class="ficon">
-						<img src="img/icon1.png" alt="">
-					</div>
-					<div class="details_exp">
-						<h3>Membership</h3>
-						<p>Electronics Club is easy to join, and it's a blast once you do!  You can subscribe to our mailing list, come to meetings, pay membership dues ($10/semester, includes use of the electronics lab), and that's it!</p>
-						<!-- link to mailing list below -->
-						<a href="membership.html">more details<span>→</span></a>
-					</div>
-				</div>
-				<div class="feature">
-					<div class="ficon">
-						<img src="img/icon2.png" alt="">
-					</div>
-					<div class="details_exp">
-						<h3>Classes</h3>
-						<p>Soon, the Electronics Club will actually be offering classes related to electronics hobbies.  We intend to have a soldering class at some point, as well as an introduction to arduino class.</p>
-						<a href="classes.html">more details<span>→</span></a>
-					</div>
-				</div>
-				<div class="feature">
-					<div class="ficon">
-						<img src="img/icon3.png" alt="">
-					</div>
-					<div class="details_exp">
-						<h3>Projects</h3>
-						<p>As hardware enthusiasts, our members are hard at work on personal projects as well as classes.</p>
-						<a href="projects.html">more details<span>→</span></a>
-					</div>
-				</div>
-			</div>
-
-	</section>
-
-	<!--  End Features  -->
-
-	<section class="testimonials wrapper">
-
-		<span class="sep_line sep_top">
-		</span>
-
-		<h2>About</h2>
-		<div class="testi_slider" id="tslider">
-			<div class="t">
-				<p>Electronics Club allows students to utilize an open lab space to work on
-					electronic circuits and devices. The club works on projects geared towards
-					a more whole EE/ ECE education. </p>
-			</div>
-		</div>
-		<span class="sep_line sep_bottom"></span>
-
-	</section>
-
-	<!--  End Testimonials  -->
+<div id="officers">        
+<div class="container">
+    
+    
+    <div class="row centered">			
+    <h1>Officers</h1> <!-- PAGE TITLE -->
 	
+<!-- ===== PRESIDENT ===== -->        
+        
+        <div class="col-sm-6 col-md-6 col-lg-4">
+            <div id="wrap">
+                <img class="avatar" src="https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg" />
+            </div>
 
-	<footer>
-		<p class="rights">Built by the <a href="http://cwdg.github.io">CWDG</a></p>
-	</footer>
+    <h3>President</h3> <!-- POSITION -->
+    <h4>Eric Bauer</h5> <!-- NAME -->
+        
+        </div>
 
-	<!--  End Footer  -->
+	   
+<!-- ===== VICE PRESIDENT ===== -->
+        
+        <div class="col-sm-6 col-md-6 col-lg-4">
+			 <div id="wrap">
+                <img class="avatar" src="https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg" />
+</div>                
+            
+    <h3>Vice President</h3> <!-- POSITION -->
+    <h4>Martin Troth</h5> <!-- NAME -->
+			
+        </div>
+
+        
+<!-- ===== TREASURER ===== -->
+        
+    <div class="col-sm-6 col-md-6 col-lg-4">
+        <div id="wrap">
+            <img class="avatar" src="https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg" />
+</div>                
+                
+    <h3>Treasurer</h3> <!-- POSITION -->
+    <h4>Joe Warner</h5> <!-- NAME -->
+        	
+        </div>
+
+        
+<!-- ===== LAB MANAGER ===== -->
+        
+    <div class="col-sm-6 col-md-6 col-lg-4">
+        <div id="wrap">
+            <img class="avatar" src="https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg" />
+</div>                
+                
+    <h3>Lab Manager</h3> <!-- POSITION -->
+    <h4>Dan Napoles</h5> <!-- NAME -->
+        	
+        </div>
+
+        
+<!-- ===== Engineering Council Rep ===== -->
+        
+    <div class="col-sm-6 col-md-6 col-lg-4">
+        <div id="wrap">
+            <img class="avatar" src="https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg" />
+</div>                
+                
+    <h3>ECouncil Rep</h3> <!-- POSITION -->
+    <h4>Hussam Jalanbo</h5> <!-- NAME -->
+        	
+        </div>
+
+        
+<!-- ===== Social Chair ===== -->
+        
+    <div class="col-sm-6 col-md-6 col-lg-4">
+        <div id="wrap">
+            <img class="avatar" src="https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg" />
+</div>                
+                
+    <h3>Social Chair</h3> <!-- POSITION -->
+    <h4>Alex Fuhr</h5> <!-- NAME -->
+        	
+        </div>
+
+        </div>
+
+    
+<!-- ===== WEBMASTER ===== -->
+    
+<div class="row centered"> <!-- CENTER LAST ROW -->
+    
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <div id="wrap">
+            <img class="avatar" src="https://pbs.twimg.com/profile_images/1237550450/mstom_400x400.jpg" />
+</div>                
+                
+    <h3>Webmaster</h3> <!-- POSITION -->
+    <h4>Eli Gladman</h5> <!-- NAME -->
+            
+    </div>
+
+</div>
+    
+</div>    
+</div>       
+</div>
+
+<!-- ===== OFFICERS <END> ===== -->
+
+
+
+<!-- ===== FOOTER ===== -->
+<div id="contact">
+    <div id="footer">
+        <div class="container">
+            
+            <div class="col-sm-6 col-md-6 col-lg-6">
+    <h3>Lab: Caldwell 078</h3>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6">
+    <h3>electronicsosu@gmail.com</h3>
+            </div>
+        
+        </div>
+</div>
+    
+<!-- ===== FOOTER ENDS ===== -->
+
+<!-- ===== BACK TO TOP BUTTON ===== -->
+
+<a href="#" class="go-top">&#9650;</a>
+
+<!-- ===== BACK TO TOP BUTTON ENDS===== -->        
+
 
 </body>
+
 </html>
