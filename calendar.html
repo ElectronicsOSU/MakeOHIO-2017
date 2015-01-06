@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>The Electronics Club at OSU</title>
+    <meta name="The Electronics Club at OSU">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.5/fullcalendar.min.css' />
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.5/fullcalendar.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.5/gcal.js'></script>
+  </head>
+
+
+
+    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="index.html"><b>The Electronics Club</b></a>
+	        </div>
+
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="aboutus.html" class="smoothScroll">About</a></li>
+                  <li><a href="calendar.html" class="smoothScroll">Calendar</a></li>
+                  <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                  <li><a href="https://lists.osu.edu/mailman/listinfo/electronicsclub" class="smoothScroll">Mailing List</a></li>
+                </ul>
+
+	           <a href="https://github.com/ElectronicsOSU" > <img src="assets/img/github.png" alt="Github Logo" class="octocat" id="github">  </a>
+
+
+
+	        </div><!--/.nav-collapse -->
+	      </div>
+    </div>
+
+<!-- ===== CALENDAR ===== -->
+
+
+<div class="centered" id="calendar">
+</div>
+
+<!-- ===== CONTACT INFORMATION ===== -->
+
+    <section id="contact" name="contact"></section>
+
+    <div id="footerwrap">
+        <div class="container">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+
+<h4>Lab</h4>
+
+    <p>Caldwell 078</p>
+
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6">
+
+<h4>Email</h4>
+
+    <p>electronicsosu@gmail.com</p>
+
+            </div>
+
+
+    </div>
+
+
+<!-- ===== BACK TO TOP BUTTON ===== -->
+
+<a href="#" class="go-top">&#9650;</a>
+
+</body>
+
+<script type='text/javascript'>
+$(document).ready(function() {
+  $('#calendar').fullCalendar({
+    header: {
+    	left: 'prev,next today',
+    	center: 'title',
+    	right: 'month,agendaWeek,agendaDay'
+    },
+    googleCalendarApiKey: 'AIzaSyBu5kL2kgj9AZXCM8kfSLukPx1Vb7bRSh4',
+    events: {
+      googleCalendarId: 'electronicsosu@gmail.com',
+      timezone: 'America/New_York'
+    }
+  });
+});
+</script>
+
+</html>

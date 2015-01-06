@@ -1,79 +1,243 @@
-<!-- This is a modified version of the Crafty web templating theme. -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>OSU Electronics Club</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/main_responsive.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/carouFredSel.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/googleCalendar.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<header>
-		<div class="wrapper">
-			<img src="img/electronics_club_logo_white.png" alt="OSU Electronics Club!" class="logo">
-			<a href="#" class="menu_icon" id="menu_icon"></a>
-			<nav id="nav_menu">
-				<ul>
-					<li><a class="current" href="index.html">Home</a></li>
-					<li><a href="about.html">About Us</a></li>
-					<li><a href="howto.html">How To</a></li>
-					<li><a href="news.html">News</a></li>
-				</ul>
-			</nav>
+    <title>The Electronics Club at OSU</title>
+    <meta name="The Electronics Club at OSU">
 
-			<ul class="social">
-				<li><a class="fb" href="https://www.facebook.com/groups/electronicsosu" target="_blank"></a></li>
-			</ul>
-		</div>
-	</header><!--  End Header  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<section class="billboard">
-			<div class="wrapper">
-				<div class="caption">
-					<p>Have you tried turning it on and off again?</p>
-				</div>
-			
-				<section class="cta">
-					<a href="https://lists.osu.edu/mailman/listinfo/electronicsclub" class="cta_btn">Sign up for our mailing list</a>
-					
-				</section>
-			
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+
+
+  </head>
+
+
+
+    <div id="navigation" class="navbar navbar-default navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#"><b>The Electronics Club</b></a>
+	        </div>
+
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="aboutus.html" class="smoothScroll">About</a></li>
+                  <li><a href="calendar.html" class="smoothScroll">Calendar</a></li>
+                  <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                  <li><a href="https://lists.osu.edu/mailman/listinfo/electronicsclub" class="smoothScroll">Mailing List</a></li>
+                </ul>
+
+	           <a href="https://github.com/ElectronicsOSU" > <img src="assets/img/github.png" alt="Github Logo" class="octocat" id="github">  </a>
+
+
+
+	        </div><!--/.nav-collapse -->
+	      </div>
+    </div>
+
+<!-- ===== BACKGROUND IMAGE ===== -->
+
+<div id=landing>
+    <div id="logo-container">
+<!--
+    <img src="assets/img/electronics_club_logo_white.png" alt="PCB" class="logo">
+-->
+
+    <img src="assets/img/circuit.jpg" alt="PCB" class="billboard">
+</div>
+
+</div>
+
+
+</div>
+
+
+
+<!-- ===== INTRO WRAP ===== -->
+	<div id="intro">
+
+
+
+<div class="container">
+            <div class="col-lg-12">
+
+
+    <p>
+        Welcome the Electronics Club at Ohio State! Our organization is dedicated to stimulating interest in the field of electronics as well as educating people on how to use them. We aim to get students excited about building their own projects and attending our various student-led workshops! The club has its own workspace equipped with oscilloscopes, signal generators and any basic components a project could need as well as space to store it. Open Lab Instructors hold open lab hours in which students can come in and work on their projects, ask questions or hangout! The club also meets bi-weekly to talk about various technologies including: Arduino, PWM, Radio, Serial Protocols and more. Please stop by!
+    </p>
+
+</div>
+
+    
+    
+<!-- ===== PROFICIENCIES ===== -->    
+<div id="officers">        
+<div class="container">
+    <div class="row centered">
+				
+        <h1>Officers</h1>
+<br>
+<br>
+				
+			<div class="col-sm-6 col-md-6 col-lg-4">
+				
+				<h3>President</h3>
+                <h4>Eric Bauer</h4>
 			</div>
-	</section><!--  End Billboard  -->
-	<section class="calendar">
-	<div id="gcal">
-		</div>
-	</section>
 
-	<!-- <section class="testimonials wrapper">  -->
-
-		<!--  <span class="sep_line sep_top"> 
-		</span>  -->
-
-<!--	<h2>Home</h2>
-		<div class="testi_slider" id="tslider">
-			<div class="t">
-				<p>The electronics club is a club for electronics enthusiasts.</p>
+	        <div class="col-sm-6 col-md-6 col-lg-4">
+			    
+				<h3>Vice President</h3>
+                <h4>Martin Troth</h4>
 			</div>
-		</div>
-		<span class="sep_line sep_bottom"></span>
 
-	</section><!--  End Testimonials  -->
+        	<div class="col-sm-6 col-md-6 col-lg-4">
+        		
+				<h3>Treasurer</h3>
+                <h4>Joe Warner</h4>
+        	</div>
+
+        	<div class="col-sm-6 col-md-6 col-lg-4">
+        		
+				<h3>Engineering Council Representative</h3>
+                <h4>Hussam Jalanbo</h4>
+        	</div>
+        
+            <div class="col-sm-6 col-md-6 col-lg-4">
+        		
+				<h3>Social Chair</h3>
+                <h4>Alex Fuhr</h4>
+        	</div>
+
+        	<div class="col-sm-6 col-md-6 col-lg-4">
+        		
+				<h3>Webmaster</h3>
+                <h4>Eli Gladman</h4>
+        	</div>
+
+        	
+    </div>
+
+</div>
+</div>    
+        </div>    
+    
+    
+    
+</div>
 
 
 
-	<footer>
-		<p class="rights">Built by the <a href="http://cwdg.github.io">CWDG</a></p>
-	</footer><!--  End Footer  -->
+<!-- ===== ABOUT ===== -->
+
+<section id="showcase" name="showcase"></section>
+
+    <div id="showcase">
+
+    <div class="container">
+
+        <div class="container">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+
+
+<h1 class="centered">Membership</h1>
+
+    <p>
+    Electronics Club is easy to join, and it's a blast once you do!  You can subscribe to our mailing list, come to meetings, pay membership dues ($10/semester, includes use of the electronics lab), and that's it!
+    </p>
+
+</div>
+
+<div class="container">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+
+
+<h1 class="centered">Classes</h1>
+
+    <p>
+    Soon, the Electronics Club will actually be offering classes related to electronics hobbies.  We intend to have a soldering class at some point, as well as an introduction to arduino class.
+    </p>
+
+</div>
+
+
+
+            </div>
+
+<div class="container">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+
+
+<h1 class="centered">Location</h1>
+
+    <p>
+    It can be difficult finding the room for the first time. To find the room,
+    enter through the main doors on Neil Avenue. Go past the double doors on
+    your right and take the stairs down to the basement. Turn right around the
+    stairs so that you are going towards a single door down a hallway. Go
+    through the door and continue going straight through the large doors at the
+    end of the hallway. You are now in the Power Lab. Continue straight up the
+    stairs immediately in front of you. Turn right and we are the second door
+    from your left (not the big red door), we're in room number 078.
+    </p>
+
+</div>
+
+
+</div>
+</div>
+
+
+    </div>
+    </div>
+
+<!-- ===== CONTACT INFORMATION ===== -->
+
+    <section id="contact" name="contact"></section>
+
+    <div id="footerwrap">
+        <div class="container">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+
+<h4>Lab</h4>
+
+    <p>Caldwell 078</p>
+
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-6">
+
+<h4>Email</h4>
+
+    <p>electronicsosu@gmail.com</p>
+
+            </div>
+
+
+    </div>
+
+<!-- ===== BACK TO TOP BUTTON ===== -->
+
+<a href="#" class="go-top">&#9650;</a>
 
 </body>
-<script src="./js/gcal-events.min.js"></script>
+
 </html>
