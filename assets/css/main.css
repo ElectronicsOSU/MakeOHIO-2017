@@ -345,6 +345,7 @@ animation: animationFrames1 ease 1s;
 	padding: 1em;
 	display: none;
     border-radius: 4px;
+    z-index: 999;
 }
 
 .go-top:hover {
@@ -359,8 +360,9 @@ animation: animationFrames1 ease 1s;
 #landing {
     display: block;
     background-color: #77BA9B;
-    height: 425px;
+    height: auto;
     width: 100%;
+    max-height: 500px;
 }
 
 #calendar {
@@ -405,8 +407,8 @@ animation: animationFrames1 ease 1s;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    padding-right: 75px;
-    padding-left: 75px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #location h1 {
@@ -421,11 +423,11 @@ animation: animationFrames1 ease 1s;
 
 .banner {
 	position: relative;
-	z-index: 1;
 	margin-left: auto;
     margin-right: auto;
 	width: 330px;
-    top: 82.5px;
+    padding-top: 125px;
+    z-index: 2;
 }
 
 .banner .banner-text {
@@ -481,8 +483,8 @@ animation: animationFrames1 ease 1s;
 	width: 100%;
 	height: 100%;
 	border-radius: 4px;
-	background: rgba(255,255,255,0.9);
-	color: #666;
+	background: #77BA9B;
+	color: #E6E6E6;
 	text-shadow: 1px 1px 0 #444;
 }
 
@@ -505,4 +507,35 @@ animation: animationFrames1 ease 1s;
     height: 5px;
     background-color: #BDC3C7;
     top: 25px;
+}
+
+.navbar-logo {   
+    padding-left: 5%;
+    height: 33px;
+}
+
+#membership-classes {
+    padding-top: 135px;
+}
+
+#landing .main-logo {
+    position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+	width: 100%;
+    z-index: 2;
+    max-width: 1080px;
+}
+
+.banner img {
+    height: 650px;
+    padding-left: 125px;
+    padding-top: 100px;
+    position: absolute;
+    bottom: -145px;
+    opacity: .4;
 }
