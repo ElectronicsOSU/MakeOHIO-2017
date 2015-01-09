@@ -167,15 +167,19 @@ a:after {
 @media (min-width: 767px) {
 
 .octocat {
-    width: 52px;
-    height: auto;
+    width: auto;
+    height: 50px;
     position: relative;
     float: right;
     padding: 9px 10px;
     margin-top: 0px;
-    
     margin-bottom: 0px;
 }
+
+.octocat:hover {
+    opacity: .7;
+}
+
 }
 
 .navbar-nav > li > a {
