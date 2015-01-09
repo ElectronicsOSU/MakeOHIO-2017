@@ -1,7 +1,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "Raleway";
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -167,15 +167,19 @@ a:after {
 @media (min-width: 767px) {
 
 .octocat {
-    width: 52px;
-    height: auto;
+    width: auto;
+    height: 50px;
     position: relative;
     float: right;
     padding: 9px 10px;
     margin-top: 0px;
-    
     margin-bottom: 0px;
 }
+
+.octocat:hover {
+    opacity: .7;
+}
+
 }
 
 .navbar-nav > li > a {
@@ -531,11 +535,11 @@ animation: animationFrames1 ease 1s;
 }
 
 .navbar-logo {   
-    padding-top: 11px;
-    padding-bottom: 15px;
-    padding-left: 5px;
+    padding-top: 6px;
+    padding-left: 10px;
     float: left;
 }
+
 
 #membership-classes {
     
