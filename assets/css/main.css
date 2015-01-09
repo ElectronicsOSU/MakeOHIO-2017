@@ -160,6 +160,12 @@ a:after {
     font-weight: 300;
 }
 
+
+
+
+
+@media (min-width: 767px) {
+
 .octocat {
     width: 52px;
     height: auto;
@@ -167,8 +173,23 @@ a:after {
     float: right;
     padding: 9px 10px;
     margin-top: 0px;
-    margin-right: 15px;
+    
     margin-bottom: 0px;
+}
+}
+
+.navbar-nav > li > a {
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 767px) {
+    
+    .octocat {
+        display: none;
+    }
 }
 
 .counterclockwise {
@@ -510,12 +531,14 @@ animation: animationFrames1 ease 1s;
 }
 
 .navbar-logo {   
-    padding-left: 5%;
-    height: 33px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    float: left;
 }
 
 #membership-classes {
-    padding-top: 135px;
+    
 }
 
 #landing .main-logo {
@@ -538,4 +561,12 @@ animation: animationFrames1 ease 1s;
     position: absolute;
     bottom: -145px;
     opacity: .4;
+}
+
+.navbar-nav {
+    color: black;
+} 
+
+.nav > li:hover {
+   
 }
