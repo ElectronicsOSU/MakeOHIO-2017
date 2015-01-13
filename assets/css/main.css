@@ -1,7 +1,7 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "Raleway";
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -167,15 +167,19 @@ a:after {
 @media (min-width: 767px) {
 
 .octocat {
-    width: 52px;
-    height: auto;
+    width: auto;
+    height: 50px;
     position: relative;
     float: right;
     padding: 9px 10px;
     margin-top: 0px;
-    
     margin-bottom: 0px;
 }
+
+.octocat:hover {
+    opacity: .7;
+}
+
 }
 
 .navbar-nav > li > a {
@@ -379,11 +383,10 @@ animation: animationFrames1 ease 1s;
 }
 
 #landing {
-    display: block;
-    background-color: #77BA9B;
+    position: relative;
     height: auto;
     width: 100%;
-    max-height: 500px;
+    background-color: #55b599;
 }
 
 #calendar {
@@ -531,28 +534,17 @@ animation: animationFrames1 ease 1s;
 }
 
 .navbar-logo {   
-    padding-top: 11px;
-    padding-bottom: 15px;
-    padding-left: 5px;
+    padding-top: 6px;
+    padding-left: 10px;
     float: left;
 }
+
 
 #membership-classes {
     
 }
 
-#landing .main-logo {
-    position: relative;
-	margin-left: auto;
-    margin-right: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 15%;
-    padding-bottom: 15%;
-	width: 100%;
-    z-index: 2;
-    max-width: 1080px;
-}
+
 
 .banner img {
     height: 650px;
@@ -569,4 +561,16 @@ animation: animationFrames1 ease 1s;
 
 .nav > li:hover {
    
+}
+
+
+
+#landing  .foreground {
+}
+
+#landing .foreground img {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
