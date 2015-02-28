@@ -574,3 +574,8 @@ animation: animationFrames1 ease 1s;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+
+#intro a {
+  color: #ccc;
+}
