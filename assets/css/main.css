@@ -89,13 +89,13 @@ a:after {
    Wrap Sections
    ========================================================================== */
 
-#headerwrap {    
+#headerwrap {
 }
 
 #headerwrap h1 {
 	margin-top: 30px;
 	color: #434343;
-	font-size: 70px;	
+	font-size: 70px;
 }
 
 #headerwrap h3 {
@@ -105,7 +105,7 @@ a:after {
 
 #headerwrap h5 {
 	color: white;
-	font-weight: 700;
+	font-weight: 428BCA700;
 	text-align: left;
 }
 
@@ -123,7 +123,7 @@ a:after {
     border-top: #BDC3C7 solid 5px;
     border-bottom: #BDC3C7 solid 5px;
     padding-bottom: 20px;
-    padding-top: 20px;   
+    padding-top: 20px;
 }
 
 #intro h1 {
@@ -145,12 +145,12 @@ a:after {
 
 #footer {
     background-color: #2E2E2E;
-    
-    
+
+
 }
 
 #footer h3{
-	
+
 	color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -190,7 +190,7 @@ a:after {
 
 
 @media (max-width: 767px) {
-    
+
     .octocat {
         display: none;
     }
@@ -336,7 +336,7 @@ animation: animationFrames1 ease 1s;
     right: 20px; /* padding from the left side of the window */
     font-family: "Raleway";
     font-weight: 500;
-    font-size: 40px;   
+    font-size: 40px;
 }
 
 #top-link-block.affix {
@@ -345,7 +345,7 @@ animation: animationFrames1 ease 1s;
     right: 20px; /* padding from the left side of the window */
     font-family: "Raleway";
     font-weight: 500;
-    font-size: 40px; 
+    font-size: 40px;
 }
 
 #top-link-block.affix-top {
@@ -386,7 +386,7 @@ animation: animationFrames1 ease 1s;
     position: relative;
     height: auto;
     width: 100%;
-    background-color: #55b599;
+    background-color: #e0e0e0;
 }
 
 #calendar {
@@ -401,11 +401,11 @@ animation: animationFrames1 ease 1s;
 }
 
 #officers h1{
-    padding-bottom: 50px;        
+    padding-bottom: 50px;
 }
 
 #officers h4{
-    padding-bottom: 75px;       
+    padding-bottom: 75px;
 }
 
 #organization-desc {
@@ -416,7 +416,7 @@ animation: animationFrames1 ease 1s;
 /* Rounded avatar */
 #wrap{
   text-align: center;
-    
+
 }
 #officers .avatar {
 	border-radius: 50% 50% 50% 50%;
@@ -436,7 +436,7 @@ animation: animationFrames1 ease 1s;
 }
 
 #location h1 {
-    color: inherit;    
+    color: inherit;
 }
 
 .banner-text {
@@ -516,7 +516,7 @@ animation: animationFrames1 ease 1s;
     width: 100%;
     height: 25px;
     background-color: #2E2E2E;
-    top: 25px;    
+    top: 25px;
 }
 
 #intro .wide-separator-down {
@@ -533,7 +533,7 @@ animation: animationFrames1 ease 1s;
     top: 25px;
 }
 
-.navbar-logo {   
+.navbar-logo {
     padding-top: 6px;
     padding-left: 10px;
     float: left;
@@ -541,7 +541,7 @@ animation: animationFrames1 ease 1s;
 
 
 #membership-classes {
-    
+
 }
 
 
@@ -557,10 +557,10 @@ animation: animationFrames1 ease 1s;
 
 .navbar-nav {
     color: black;
-} 
+}
 
 .nav > li:hover {
-   
+
 }
 
 
