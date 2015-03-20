@@ -181,13 +181,15 @@ a:after {
 @media (min-width: 767px) {
 
 
+  .navbar-nav {
+    float: right;
+
+  }
+
   body {
 
     padding-top: 0px;
 }
-
-
-
 
   .navbar-default {
    background-color: rgba(0,0,0,0);
@@ -216,7 +218,7 @@ a:after {
     width: auto;
     height: 50px;
     position: relative;
-    float: right;
+    ;
     padding: 9px 10px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -228,7 +230,7 @@ a:after {
 
 }
 
-.navbar-nav > li > a {
+.nav .navbar-nav > li > a {
     text-align: center;
 }
 
@@ -239,12 +241,16 @@ a:after {
 
 
 .navbar-default {
-
    position: absolute;
    z-index: 2;
    width: 100%;
  }
 
+
+.navbar-nav {
+  float: none;
+  text-align: center;
+}
 
 
 #landing {
@@ -669,13 +675,6 @@ animation: animationFrames1 ease 1s;
 
 
 
-.navbar-nav {
-  float: right;
-}
-
-
-
-
 
 
 
@@ -743,4 +742,9 @@ animation: animationFrames1 ease 1s;
 	padding-left: 5px;
 	margin-bottom: 10px;
 }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgba(0, 0, 0, 0);
+}
+
 
