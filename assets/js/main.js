@@ -27,6 +27,7 @@ $(document).ready(function() {
   $('#calendar').fullCalendar({
 
     defaultView: 'basicWeek',
+    aspectRatio: 3,
 
     header: {
       left: 'prev,next today',
