@@ -1,21 +1,23 @@
 
 body {
   background-color: #f2f2f2;
-    font-family: "Raleway";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    color: #555;
-    padding-top: 50px;
-
+    color: #949494;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
+.fa {
+  color: #bbb;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
-    font-weight: 300;
-    color: #333;
+   font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+  color: #767676;
 }
 
 
@@ -114,6 +116,13 @@ a:after {
 	color: #777777;
 }
 
+
+.announcement p {
+  font-weight: 500;
+}
+
+
+
 #intro {
 	display: block;
 	background-color: #EAEAEA;
@@ -133,32 +142,44 @@ a:after {
 #intro p {
     display: block;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
 }
 
 #intro .description {
-    font-size: 20px;
+
     padding-top: 50px;
     padding-bottom: 30px;
 }
 
+
+
 #footer {
-    background-color: #2E2E2E;
+  position: relative;
+		background: url(../img/osu/IMG_6576-4.jpg) no-repeat bottom center;
+		background-attachment: fixed;
+		background-size: cover;
 
+	padding-top: 60px;
+	padding-bottom: 30px;
 
 }
 
-#footer h3{
 
-	color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-   font-size: 22px;
-     font-family: 'lato;
-    font-weight: 300;
-}
+
+
+
+#footer:before
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(64,64,64,0.5);
+		}
+
+
+
 
 
 
@@ -166,11 +187,45 @@ a:after {
 
 @media (min-width: 767px) {
 
+
+  .navbar-nav {
+    float: right;
+
+  }
+
+  body {
+
+    padding-top: 0px;
+}
+
+  .navbar-default {
+   background-color: rgba(0,0,0,0);
+   position: absolute;
+   z-index: 2;
+   width: 100%;
+ }
+
+ .navbar-default .navbar-nav > li > a {
+   color: #fff;
+   text-transform: lowercase;
+   font-weight: 600;
+   font-family: 'Raleway', sans-serif;
+   font-size: 1em;
+ }
+
+
+  .navbar-default .navbar-nav > li > a:hover {
+    color: rgb(224, 224, 224);
+ }
+
+
+
+
 .octocat {
     width: auto;
     height: 50px;
     position: relative;
-    float: right;
+    ;
     padding: 9px 10px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -182,7 +237,7 @@ a:after {
 
 }
 
-.navbar-nav > li > a {
+.nav .navbar-nav > li > a {
     text-align: center;
 }
 
@@ -190,6 +245,30 @@ a:after {
 
 
 @media (max-width: 767px) {
+
+
+.navbar-default {
+   position: absolute;
+   z-index: 2;
+   width: 100%;
+ }
+
+
+.navbar-nav {
+  float: none;
+  text-align: center;
+}
+
+
+#landing {
+
+    padding-top: 50px;
+
+}
+
+body .p {
+  text-align: justify;
+}
 
     .octocat {
         display: none;
@@ -383,11 +462,29 @@ animation: animationFrames1 ease 1s;
 }
 
 #landing {
+
+
     position: relative;
-    height: auto;
-    width: 100%;
-    background-color: #a3a3a3;
+		background: url(../img/osu/IMG_6576-4.jpg) no-repeat bottom center;
+		background-attachment: fixed;
+		background-size: cover;
+
 }
+
+
+
+#landing:before
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(64,64,64,0.5);
+		}
+
+
 
 #calendar {
     padding-top: 50px;
@@ -424,15 +521,13 @@ animation: animationFrames1 ease 1s;
 }
 
 #location {
-    padding-top: 30px;
+
     padding-bottom: 30px;
-    color: white;
-    background-color: #4C7592;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
     padding-right: 20px;
     padding-left: 20px;
+
+
 }
 
 #location h1 {
@@ -573,9 +668,90 @@ animation: animationFrames1 ease 1s;
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    position: relative;
 }
 
 
 #intro a {
   color: #ccc;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}
+
+
+
+.social-icons .fa-flickr{background-color:#FF0084;}
+
+
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+
+
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+
+.social-icons .fa-envelope, .fa-envelope-square, .fa-envelope-o {background-color:#E54D26;}
+
+.social-icons .fa-building-o, .fa-building {background-color:#C52F30;}
+
+
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
+
+
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.social-icons.icon-circle .fa{
+	border-radius: 50%;
+  padding-bottom: 1opx;
+}
+
+
+
+.social-icons {
+	font-size: 1.8em;
+}
+
+
+.list-inline li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-bottom: 10px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+
