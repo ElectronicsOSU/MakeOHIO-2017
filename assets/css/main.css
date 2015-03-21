@@ -492,6 +492,12 @@ animation: animationFrames1 ease 1s;
     padding-bottom: 50px;
 }
 
+
+#calendar h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
 #officers {
     padding-top: 30px;
 }

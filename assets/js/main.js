@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 $(window).scroll(function() {
-				
+
     if ($(this).scrollTop() > 200) {
             $('.go-top').fadeIn(200);
         } else {
@@ -25,15 +25,18 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
   $('#calendar').fullCalendar({
+
+    defaultView: 'basicWeek',
+
     header: {
-    	left: 'prev,next today',
+      left: 'prev,next today',
     	center: 'title',
     	right: 'month,agendaWeek,agendaDay'
     },
     googleCalendarApiKey: 'AIzaSyBu5kL2kgj9AZXCM8kfSLukPx1Vb7bRSh4',
     events: {
       googleCalendarId: 'electronicsosu@gmail.com',
-      timezone: 'America/New_York'
+      timezone: 'America/New_York',
     }
   });
 });
