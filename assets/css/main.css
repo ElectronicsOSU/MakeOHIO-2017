@@ -1,4 +1,3 @@
-
 body {
   background-color: #f2f2f2;
     font-family: 'Roboto', sans-serif;
@@ -755,3 +754,6 @@ animation: animationFrames1 ease 1s;
 }
 
 
+.navbar-default .navbar-nav>li>a:focus {
+  color: #fff;
+}
