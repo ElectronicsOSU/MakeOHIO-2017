@@ -527,7 +527,7 @@ animation: animationFrames1 ease 1s;
 		background: url(../img/circuit.jpg) no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
-    background-position: 0px -525px, center;
+    background-position: 0px 0px, center;
 
 }
 
