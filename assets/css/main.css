@@ -124,12 +124,12 @@ a:after {
 
 #intro {
 	display: block;
-	background-color: #EAEAEA;
+	background-color: rgb(239, 239, 239);
 	padding-top: 0px;
 	padding-bottom: 30px;
     color: #666;
     border-top: #BDC3C7 solid 5px;
-    border-bottom: #BDC3C7 solid 5px;
+    border-bottom: #BDC3C7 solid 3px;
     padding-bottom: 20px;
     padding-top: 20px;
 }
@@ -153,14 +153,13 @@ a:after {
 
 #footer {
   position: relative;
-		background: url(../img/osu/IMG_6576-4.jpg) no-repeat bottom center;
-		background-attachment: fixed;
-		background-size: cover;
-
-	padding-top: 60px;
-	padding-bottom: 30px;
-
+	background-color: #333;
+	background-size: cover;
+  background-position: 0 80vh, center;
+	padding-top: 20px;
+	padding-bottom: 0px;
 }
+
 
 
 
@@ -174,13 +173,27 @@ a:after {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: rgba(64,64,64,0.5);
+			background: rgba(64,64,64,0.2);
 		}
 
 
 
 
 
+
+
+/*
+#spacer:before
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(64,64,64,0.2);
+		}
+*/
 
 
 
@@ -218,7 +231,7 @@ a:after {
  }
 
 
-
+spacer
 
 .octocat {
     width: auto;
@@ -244,6 +257,53 @@ a:after {
 
 
 @media (max-width: 767px) {
+
+
+
+.navbar-default {
+  background-color: #333;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #474747;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #3d3d3d;
+}
+
+
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #474747;
+}
+
+
+
+
+ .navbar-default .navbar-nav>li>a {
+   color: rgb(239, 239, 239);
+   text-transform: lowercase;
+ }
+
+
+
+ .navbar-default .navbar-nav>li>a:hover {
+  color: rgb(194, 194, 194);
+ }
+
+
+.navbar-default .navbar-toggle:focus {
+  background-color: #474747;
+}
+
+.navbar-collapse {
+  box-shadow: none;
+}
+
+
+
+
 
 
 .navbar-default {
@@ -464,9 +524,10 @@ animation: animationFrames1 ease 1s;
 
 
     position: relative;
-		background: url(../img/osu/IMG_6576-4.jpg) no-repeat bottom center;
+		background: url(../img/circuit.jpg) no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
+    background-position: 0px -525px, center;
 
 }
 
@@ -531,9 +592,24 @@ animation: animationFrames1 ease 1s;
     text-align: center;
     padding-right: 20px;
     padding-left: 20px;
-
-
 }
+
+#special-event {
+  padding-bottom: 70px;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 70px;
+  border-top: #BDC3C7 solid 3px;
+  background-color: rgba(148, 148, 148, 0.1);
+  color: #333;
+}
+
+#special-event h1 {
+  color: inherit;
+}
+
+
 
 #location h1 {
     color: inherit;
@@ -665,16 +741,26 @@ animation: animationFrames1 ease 1s;
 
 
 
-#landing  .foreground {
-}
 
-#landing .foreground img {
+#brand img {
     width: 100%;
     height: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     position: relative;
 }
+
+
+
+
+
+#special-event .foreground img {
+    width: 75%;
+    height: auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+
 
 
 #intro a {
@@ -763,3 +849,95 @@ animation: animationFrames1 ease 1s;
 .navbar-default .navbar-nav>li>a:focus {
   color: #fff;
 }
+
+
+
+
+.btn-default {
+  background-color: rgb(187, 0, 0);
+  color: rgb(239, 239, 239);
+  border-color: rgb(150, 0, 0);
+}
+
+.btn-default:hover, .btn-default:focus {
+  background-color: rgb(150, 0, 0);
+  color: rgb(239, 239, 239);
+  border-color: rgb(131, 0, 0);
+}
+
+.flickr-stream div {
+  float: left;
+  width: auto;
+  height: 135px;
+}
+
+.flickr-stream {
+  position: relative;
+  right: 50%;
+  width: auto;
+  height: 135px;
+  display: inline-flex;
+  z-index: -1;
+
+
+}
+
+
+
+#featured {
+
+height: 135px;
+  overflow: hidden;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+
+
+#navigation, #brand, #featured {
+  -webkit-animation-duration: 4s;
+  -o-animation-duration: 4s;
+  -moz-animation-duration: 4s;
+
+  -webkit-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+}
+
+
+#landing {
+  -webkit-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+}
+
+
+#description {
+  -webkit-animation-duration: 3s;
+  -o-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+
+  -webkit-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+}
+
+
+#quick-start, #meeting-time, #special-event, #officers {
+  -webkit-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+
+  -webkit-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+}
+
+
+
+
+

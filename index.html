@@ -14,20 +14,22 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-        <!-- STYLING -->
-        <link rel="stylesheet" href="assets/css/main.css">
-
         <!-- FONT AWESOME CDN -->
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
         <!-- FONTS -->
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,500italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Raleway:400, 500, 600' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400, 500, 600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 
         <!-- SMOOTHSCROLL CDN -->
         <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js'></script>
+
+        <!-- ANIMATE.CSS CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.5/animate.min.css">
+
+        <!-- STYLING -->
+        <link rel="stylesheet" href="assets/css/main.css">
 
         <!-- JS -->
         <script src="assets/js/main.js"></script>
@@ -35,7 +37,7 @@
 
 
 
-    <div id="navigation" class=" navbar-default navbar-static-top">
+    <div id="navigation" class=" navbar-default navbar-static-top hidden">
 
         <!-- MENU ICON FOR MOBILE -->
         <div class="navbar-header navbar-static-top">
@@ -54,10 +56,10 @@
 -->
         <!-- NAVIGATION LINKS -->
         <ul class="nav navbar-nav">
-            <li><a href="#contact" class="smoothScroll">Contact</a></li>
+
             <li><a href="https://lists.osu.edu/mailman/listinfo/electronicsclub" target="_blank" class="smoothScroll">Mailing List</a></li>
             <li><a href="calendar.html" class="smoothScroll">Calendar</a></li>
-            <li><a href="about.html" class="smoothScroll">About</a></li>
+            <li><a href="about.html" class="smoothScroll">Officers</a></li>
         </ul>
 
         </div><!--/.nav-collapse -->
@@ -67,7 +69,7 @@
 
 <div id=landing>
     <div class="container centered">
-        <div class="foreground">
+        <div id="brand" class="hidden">
 
             <!-- MAIN LOGO -->
             <a href="#" >
@@ -88,27 +90,29 @@
 
 <div id="intro">
     <div class="container centered announcement">
-
+<div id="meeting-time" class="hidden">
         <h5>next meeting:</h5>
 
         <p>March 27th @ 5:30pm in Caldwell 120</p>
-
+        </div>
     </div>
 
 
     <div class="container description">
         <div class="col-lg-12">
 
-
+<div id="description" class ="hidden">
 <!-- ORGANIZATION BIO -->
     <p>
     Welcome the Electronics Club at The Ohio State University. Our organization is dedicated to fostering interest in the field of electronics in addition to  educating students. We aim to get students excited about building their own projects and attending our various student-led workshops! The club has its own workspace equipped with oscilloscopes, signal generators as well as rudimentary tools, and components accessible to members. We also allot members storage space for their personal projects. We routinely offer open lab hours in which students can come in and work on their projects, ask questions or merely hangout! The club meets every other week, to candidly discuss numerous technologies and standards. Prior meetings have shed light on Serial Protocols, PWM, Arduinos, and more. We urge you to come stop by, our meetings provide excellent learning oppertunities for the novice as well the expert.
     </p>
-
+            </div>
         </div>
     </div>
 
 <!-- ////////// -->
+
+<div id="quick-start" class="hidden">
 
 <div id="membership-classes">
     <div class="container centered"> <!-- WRAPPER BEGINS -->
@@ -143,7 +147,7 @@
 
     <!-- CONTENT -->
     <p>
-    Soon, the Electronics Club will actually be offering classes related to electronics hobbies.  We intend to have a soldering class at some point, as well as an introduction to arduino class.
+    Soon, the Electronics Club will actually be offering classes related to electronics hobbies. We intend to have a soldering class at some point, as well as an introduction to arduino class.
     </p>
 
 </div>
@@ -180,9 +184,59 @@
     </div>
 </div>
 
+</div>
+    </div>
+    <div id="featured" class="hidden">
+
+    <div class="flickr-stream"></div>
+
+    </div>
 
 
 </div>
+
+
+
+
+<div id="special-event" class="hidden">
+    <div class="container centered">
+
+
+<div class="col-sm-12 col-md-12 col-lg-12">
+
+    <div class=" centered">
+        <div class="foreground">
+
+            <!-- MAIN LOGO -->
+            <a href="http://hack.osu.edu/make/" >
+            <img src="assets/img/logo/makeathon_logo.svg">
+            </a>
+
+        </div>
+    </div>
+
+
+
+
+    <!-- CONTENT -->
+    <p>
+        The OHI/O MAKEathon is a 24 hour hardware making event taking place on April 18th and 19th. The event will be free to attend for Ohio State students, which includes food and drinks to keep you going! Don’t have hardware or cool components to work with? Not a problem—we will have microcontrollers, sensors and circuit essentials available for use. There are $500 in general prizes as well as sponsor specific prizes from Texas Instruments, AwareAbility, and Microsoft. Attendance will be capped at 80 students or 20 teams of up to 4 people.
+    </p>
+
+    <a href="http://hack.osu.edu/make/">
+    <button type="button" class="btn btn-default">Register</button>
+    </a>
+</div>
+
+
+
+
+
+    </div>
+
+
+
+
 </div>
 
 
