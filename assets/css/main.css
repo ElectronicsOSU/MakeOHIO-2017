@@ -750,7 +750,13 @@ animation: animationFrames1 ease 1s;
     position: relative;
 }
 
-
+#brand-alt img {
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    position: relative;
+}
 
 
 

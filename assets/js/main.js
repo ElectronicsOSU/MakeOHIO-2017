@@ -25,10 +25,9 @@ $(document).ready(function() {
 
 
 
-//jQuery('.brand').fadeIn(2000);
-//$('#brand img').addClass('visible');
-  $('#brand').removeClass('hidden');
-  $('#brand').addClass('animated fadeIn');
+
+  $('#brand, #brand-alt').removeClass('hidden');
+  $('#brand, #brand-alt').addClass('animated fadeIn');
 
   $("#navigation").removeClass("hidden");
   $("#navigation").addClass("animated fadeIn");
