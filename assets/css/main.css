@@ -502,8 +502,8 @@ animation: animationFrames1 ease 1s;
 	bottom: 1em;
 	right: 1em;
 	text-decoration: none;
-	color: #BDC3C7;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(92, 92, 92, .3);
+  color: rgba(239, 239, 239, .7);
 	font-size: 14px;
 	padding: 1em;
 	display: none;
@@ -512,8 +512,8 @@ animation: animationFrames1 ease 1s;
 }
 
 .go-top:hover {
-	background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+	background-color: rgba(92, 92, 92, .7);
+  color: rgba(239, 239, 239, .8);
 }
 
 #flash {
