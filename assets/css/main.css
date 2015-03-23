@@ -899,42 +899,42 @@ height: 135px;
 
 
 #navigation, #brand, #featured {
-  -webkit-animation-duration: 4s;
-  -o-animation-duration: 4s;
-  -moz-animation-duration: 4s;
+  -webkit-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  -moz-animation-duration: 2s;
 
-  -webkit-animation-delay: 2s;
-  -o-animation-delay: 2s;
-  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  -moz-animation-delay: 0s;
 }
 
 
 #landing {
-  -webkit-animation-duration: 2s;
-  -o-animation-duration: 2s;
-  -moz-animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -moz-animation-duration: 1s;
 }
 
 
 #description {
-  -webkit-animation-duration: 3s;
-  -o-animation-duration: 3s;
-  -moz-animation-duration: 3s;
-
-  -webkit-animation-delay: 2s;
-  -o-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-}
-
-
-#quick-start, #meeting-time, #special-event, #officers {
   -webkit-animation-duration: 2s;
   -o-animation-duration: 2s;
   -moz-animation-duration: 2s;
 
-  -webkit-animation-delay: 2s;
-  -o-animation-delay: 2s;
-  -moz-animation-delay: 2s;
+  -webkit-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+}
+
+
+#quick-start, #meeting-time, #special-event, #officers {
+  -webkit-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+
+  -webkit-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  -moz-animation-delay: 0s;
 }
 
 
