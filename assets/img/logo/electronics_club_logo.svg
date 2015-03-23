@@ -11,7 +11,8 @@
    version="1.1"
    width="8000"
    height="2000"
-   id="svg3128">
+   id="svg3128"
+   shape-rendering="geometricPrecision">
   <metadata
      id="metadata3134">
     <rdf:RDF>
