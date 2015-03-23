@@ -945,5 +945,35 @@ height: 135px;
 
 
 
+.hint--info:after {
+  background-color: rgb(92, 92, 92);
+  text-shadow: none;
+  color: rgb(239, 239, 239);
+}
+.hint--info.hint--top:before {
+  border-top-color: rgb(92, 92, 92); }
+.hint--info.hint--bottom:before {
+  border-bottom-color: rgb(92, 92, 92); }
+.hint--info.hint--left:before {
+  border-left-color: rgb(92, 92, 92); }
+.hint--info.hint--right:before {
+  border-right-color: rgb(92, 92, 92); }
 
 
+
+
+.simptip-position-top[data-tooltip]::before {
+  border-top-color: rgba(92, 92, 92, .9);
+}
+
+.simptip-position-top[data-tooltip]::after {
+  background-color: rgba(92, 92, 92, .9);
+  color: rgb(239, 239, 239);
+  border-radius: 4px;
+}
+
+.simptip-position-top::before, .simptip-position-top::after {
+  bottom: 110%;
+}
+
+/*https://brettstrikesback.com/de-pixelating-the-css-triangle/ */
