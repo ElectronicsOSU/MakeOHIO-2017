@@ -1,2 +1,1 @@
-# OSU Electronics Club Website
-
+# OHI/O MAKEATHON WEBSITE
