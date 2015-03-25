@@ -10,7 +10,7 @@ body {
 
 .fa {
   color: #bbb;
-}
+}electronicsosu.com
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
@@ -319,11 +319,7 @@ spacer
 }
 
 
-#landing {
 
-    padding-top: 50px;
-
-}
 
 body .p {
   text-align: justify;
@@ -522,7 +518,7 @@ animation: animationFrames1 ease 1s;
 
 #landing {
 
-
+    padding-top: 50px;
     position: relative;
 		background: url(../img/circuit.jpg) no-repeat;
 		background-attachment: fixed;
@@ -743,11 +739,16 @@ animation: animationFrames1 ease 1s;
 
 
 #brand img {
-    width: 100%;
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    position: relative;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 50px;
+}
+
+#brand h1 {
+  padding-bottom: 30px;
+  font-weight: 700;
+  color: #efefef;
 }
 
 #brand-alt img {
