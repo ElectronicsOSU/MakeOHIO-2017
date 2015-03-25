@@ -10,22 +10,18 @@ body {
 
 .fa {
   color: #bbb;
-}electronicsosu.com
+}
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'Raleway', sans-serif;
-    font-weight: 500;
-  color: #767676;
+  font-family: 'Fjalla One', sans-serif;
+
 }
 
 
 
 /* Paragraph & Typographic */
-p {
-    line-height: 28px;
-    margin-bottom: 25px;
-}
+
 
 .centered {
     text-align: center;
@@ -42,22 +38,9 @@ a {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-#showcase .textLinks {
-    font-weight: bold;
-    color: white;
-    word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
 
 
-#showcase .textLinks:hover {
-text-decoration: underline;
-}
+
 
 
 a:hover,
@@ -76,78 +59,14 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
-
-#headerwrap {
-}
-
-#headerwrap h1 {
-	margin-top: 30px;
-	color: #434343;
-	font-size: 70px;
-}
-
-#headerwrap h3 {
-	color: #777777;
-	font-size: 30px;
-}
-
-#headerwrap h5 {
-	color: white;
-	font-weight: 428BCA700;
-	text-align: left;
-}
-
-#headerwrap p {
-	text-align: left;
-	color: #777777;
-}
-
-
-.announcement p {
-  font-weight: 500;
-}
 
 
 
-#intro {
-	display: block;
-	background-color: rgb(239, 239, 239);
-	padding-top: 0px;
-	padding-bottom: 30px;
-    color: #666;
-    border-top: #BDC3C7 solid 5px;
-    border-bottom: #BDC3C7 solid 3px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
 
-#intro h1 {
-    color: #666;
-}
 
-#intro p {
-    display: block;
-    text-align: center;
-}
 
-#intro .description {
 
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
+
 
 
 
@@ -197,25 +116,35 @@ a:after {
 
 
 
-@media (min-width: 767px) {
 
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- */
+@media (min-width: 767px) {
 
   .navbar-nav {
     float: right;
-
   }
 
   body {
-
     padding-top: 0px;
-}
+  }
 
   .navbar-default {
-   background-color: rgba(0,0,0,0);
-   position: absolute;
-   z-index: 2;
-   width: 100%;
- }
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+  }
 
  .navbar-default .navbar-nav > li > a {
    color: #fff;
@@ -225,274 +154,91 @@ a:after {
    font-size: 1em;
  }
 
-
   .navbar-default .navbar-nav > li > a:hover {
     color: rgb(224, 224, 224);
- }
+  }
 
-
-spacer
-
-.octocat {
-    width: auto;
-    height: 50px;
-    position: relative;
-    ;
-    padding: 9px 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.octocat:hover {
-    opacity: .7;
-}
 
 }
-
-.nav .navbar-nav > li > a {
-    text-align: center;
-}
+/* ---------- */
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* ---------- */
 
 @media (max-width: 767px) {
 
-
-
-.navbar-default {
-  background-color: #333;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: #474747;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #3d3d3d;
-}
-
-
-
-.navbar-default .navbar-toggle:hover {
-  background-color: #474747;
-}
-
-
-
-
- .navbar-default .navbar-nav>li>a {
-   color: rgb(239, 239, 239);
-   text-transform: lowercase;
- }
-
-
-
- .navbar-default .navbar-nav>li>a:hover {
-  color: rgb(194, 194, 194);
- }
-
-
-.navbar-default .navbar-toggle:focus {
-  background-color: #474747;
-}
-
-.navbar-collapse {
-  box-shadow: none;
-}
-
-
-
-
-
-
-.navbar-default {
-   position: absolute;
-   z-index: 2;
-   width: 100%;
- }
-
-
-.navbar-nav {
-  float: none;
-  text-align: center;
-}
-
-
-
-
-body .p {
-  text-align: justify;
-}
-
-    .octocat {
-        display: none;
-    }
-}
-
-.counterclockwise {
-animation: animationFrames1 ease 1s;
-  animation-iteration-count: 1;
-  transform-origin: 50% 50%;
-  -webkit-animation: animationFrames1 ease 1s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-transform-origin: 50% 50%;
-  -moz-animation: animationFrames1 ease 1s;
-  -moz-animation-iteration-count: 1;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: animationFrames1 ease 1s;
-  -o-animation-iteration-count: 1;
-  -o-transform-origin: 50% 50%;
-  -ms-animation: animationFrames1 ease 1s;
-  -ms-animation-iteration-count: 1;
-  -ms-transform-origin: 50% 50%;
-}
-
-@keyframes animationFrames1{
-  0% {
-    transform:  rotate(0deg) ;
+  .navbar-default {
+    background-color: #333;
   }
-  100% {
-    transform:  rotate(-360deg) ;
-  }
-}
 
-@-moz-keyframes animationFrames1{
-  0% {
-    -moz-transform:  rotate(0deg) ;
+  .navbar-default .navbar-toggle {
+    border-color: #474747;
   }
-  100% {
-    -moz-transform:  rotate(-360deg) ;
-  }
-}
 
-@-webkit-keyframes animationFrames1 {
-  0% {
-    -webkit-transform:  rotate(0deg) ;
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #3d3d3d;
   }
-  100% {
-    -webkit-transform:  rotate(-360deg) ;
-  }
-}
 
-@-o-keyframes animationFrames1 {
-  0% {
-    -o-transform:  rotate(0deg) ;
+  .navbar-default .navbar-toggle:hover {
+    background-color: #474747;
   }
-  100% {
-    -o-transform:  rotate(-360deg) ;
-  }
-}
 
-@-ms-keyframes animationFrames1 {
-  0% {
-    -ms-transform:  rotate(0deg) ;
+  .navbar-default .navbar-nav>li>a {
+    color: rgb(239, 239, 239);
+    text-transform: lowercase;
   }
-  100% {
-    -ms-transform:  rotate(-360deg) ;
-  }
-}
 
-.clockwise {
-
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-.clockwise {
-    animation: animationFrames ease 1s;
-  animation-iteration-count: 1;
-  transform-origin: 50% 50%;
-  -webkit-animation: animationFrames ease 1s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-transform-origin: 50% 50%;
-  -moz-animation: animationFrames ease 1s;
-  -moz-animation-iteration-count: 1;
-  -moz-transform-origin: 50% 50%;
-  -o-animation: animationFrames ease 1s;
-  -o-animation-iteration-count: 1;
-  -o-transform-origin: 50% 50%;
-  -ms-animation: animationFrames ease 1s;
-  -ms-animation-iteration-count: 1;
-  -ms-transform-origin: 50% 50%;
-}
-
-@keyframes animationFrames{
-  0% {
-    transform:  rotate(0deg) ;
+  .navbar-default .navbar-nav>li>a:hover {
+    color: rgb(194, 194, 194);
   }
-  100% {
-    transform:  rotate(360deg) ;
-  }
-}
 
-@-moz-keyframes animationFrames{
-  0% {
-    -moz-transform:  rotate(0deg) ;
+  .navbar-default .navbar-toggle:focus {
+    background-color: #474747;
   }
-  100% {
-    -moz-transform:  rotate(360deg) ;
-  }
-}
 
-@-webkit-keyframes animationFrames {
-  0% {
-    -webkit-transform:  rotate(0deg) ;
+  .navbar-collapse {
+    box-shadow: none;
   }
-  100% {
-    -webkit-transform:  rotate(360deg) ;
+
+  .navbar-default {
+     position: absolute;
+     z-index: 2;
+     width: 100%;
+   }
+
+  .navbar-nav {
+    float: none;
+    text-align: center;
   }
-}
 
-@-o-keyframes animationFrames {
-  0% {
-    -o-transform:  rotate(0deg) ;
-  }
-  100% {
-    -o-transform:  rotate(360deg) ;
-  }
 }
+/* ---------- */
 
-@-ms-keyframes animationFrames {
-  0% {
-    -ms-transform:  rotate(0deg) ;
-  }
-  100% {
-    -ms-transform:  rotate(360deg) ;
-  }
-}
 
-#top-link-block.affix-top {
-    position: absolute; /* allows it to "slide" up into view */
-    bottom: -82px; /* negative of the offset - height of link element */
-    right: 20px; /* padding from the left side of the window */
-    font-family: "Raleway";
-    font-weight: 500;
-    font-size: 40px;
-}
 
-#top-link-block.affix {
-    position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px; /* height of link element */
-    right: 20px; /* padding from the left side of the window */
-    font-family: "Raleway";
-    font-weight: 500;
-    font-size: 40px;
-}
 
-#top-link-block.affix-top {
-    position: absolute; /* allows it to "slide" up into view */
-    bottom: -82px; /* negative of the offset - height of link element */
-    left: 10px; /* padding from the left side of the window */
-}
-#top-link-block.affix {
-    position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px; /* height of link element */
-    left: 10px; /* padding from the left side of the window */
-}
 
+
+
+
+
+
+
+
+
+
+/* BACK TO TOP BUTTON */
 .go-top {
 	position: fixed;
 	bottom: 1em;
@@ -511,10 +257,22 @@ animation: animationFrames1 ease 1s;
 	background-color: rgba(92, 92, 92, .7);
   color: rgba(239, 239, 239, .8);
 }
+/* ---------- */
 
-#flash {
-    display: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #landing {
 
@@ -542,168 +300,25 @@ animation: animationFrames1 ease 1s;
 
 
 
-#calendar {
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 50px;
-}
 
-
-#calendar h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-}
-
-#officers {
-    padding-top: 30px;
-}
-
-#officers h1{
-    padding-bottom: 50px;
-}
-
-#officers h4{
-    padding-bottom: 75px;
-}
 
 #organization-desc {
     padding-top: 30px;
     color: white;
 }
 
-/* Rounded avatar */
-#wrap{
-  text-align: center;
-
-}
-#officers .avatar {
-	border-radius: 50% 50% 50% 50%;
-    width: 200px;
-}
-
-#location {
-
-    padding-bottom: 30px;
-    text-align: center;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-#special-event {
-  padding-bottom: 70px;
-  text-align: center;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 70px;
-  border-top: #BDC3C7 solid 3px;
-  background-color: rgba(148, 148, 148, 0.1);
-  color: #333;
-}
-
-#special-event h1 {
-  color: inherit;
-}
 
 
 
-#location h1 {
-    color: inherit;
-}
 
-.banner-text {
-	font-size: 1em;
-	font-family: 'Oswald', 'Helvetica Neue', Helvetica;
-	line-height: 1.4;
-}
 
-.banner {
-	position: relative;
-	margin-left: auto;
-    margin-right: auto;
-	width: 330px;
-    padding-top: 125px;
-    z-index: 2;
-}
 
-.banner .banner-text {
-	margin: 0 0 10px;
-	width: 100%;
-	height: 78px;
-	box-shadow: 10px 10px 10px rgba(0,0,0,0.05);
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 3em;
-	line-height: 78px;
-	transform: skew(0, -15deg);
-}
 
-.banner .banner-text:after,
-.banner .banner-text:first-child:before {
-	position: absolute;
-	top: 44px;
-	left: 0;
-	z-index: -1;
-	display: block;
-	width: 330px;
-	height: 78px;
-	border-radius: 4px;
-	background: rgba(180,180,180,0.8);
-	content: '';
-	transform: skew(0, 15deg);
-}
 
-.banner .banner-text:first-child:before {
-	top: -10px;
-	right: 0;
-	left: auto;
-}
 
-.banner .banner-text:first-child:before,
-.banner .banner-text:last-child:after {
-	width: 0;
-	height: 0;
-	border-width: 38px;
-	border-style: solid;
-	border-color: rgba(180,180,180,0.8) rgba(180,180,180,0.8) transparent transparent;
-	background: transparent;
-}
 
-.banner .banner-text:last-child:after {
-	top: 12px;
-	border-color: transparent transparent rgba(180,180,180,0.8) rgba(180,180,180,0.8);
-}
 
-.banner span {
-	display: block;
-	width: 100%;
-	height: 100%;
-	border-radius: 4px;
-	background: #77BA9B;
-	color: #E6E6E6;
-	text-shadow: 1px 1px 0 #444;
-}
 
-#intro .wide-separator-top {
-    width: 100%;
-    height: 25px;
-    background-color: #2E2E2E;
-    top: 25px;
-}
-
-#intro .wide-separator-down {
-    width: 100%;
-    height: 25px;
-    background-color: #2E2E2E;
-    top: 25px;
-}
-
-#intro .narrow-separator {
-    width: 100%;
-    height: 5px;
-    background-color: #BDC3C7;
-    top: 25px;
-}
 
 .navbar-logo {
     padding-top: 6px;
@@ -711,10 +326,6 @@ animation: animationFrames1 ease 1s;
     float: left;
 }
 
-
-#membership-classes {
-
-}
 
 
 
@@ -727,13 +338,6 @@ animation: animationFrames1 ease 1s;
     opacity: .4;
 }
 
-.navbar-nav {
-    color: black;
-}
-
-.nav > li:hover {
-
-}
 
 
 
@@ -742,7 +346,8 @@ animation: animationFrames1 ease 1s;
   width: 100%;
   height: auto;
   position: relative;
-  padding-top: 50px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 #brand h1 {
@@ -977,4 +582,112 @@ height: 135px;
   bottom: 110%;
 }
 
-/*https://brettstrikesback.com/de-pixelating-the-css-triangle/ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#summary {
+  padding-bottom: 70px;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 70px;
+  background-color: rgba(148, 148, 148, 0.1);
+  color: #333;
+}
+
+#summary h1 {
+  color: inherit;
+}
+
+
+#summary h2, #summary h3 {
+  text-transform: uppercase;
+}
+
+
+#summary .sub-heading {
+padding-top: 2em;
+padding-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#facts {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#facts h1 {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
+
+
+#facts p {
+  text-align: justify;
+}
+
+
+#facts span {
+  text-align: left;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+#facts .col-sm-6, #facts .col-md-6, #facts .col-lg-4 {
+  padding-bottom: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+.triangle {
+position: relative;
+margin: 0 auto -30px auto;
+width: 0;
+height: 0;
+border-top: 30px solid rgba(64,64,64,0.5);
+border-left: 175px dotted rgba(232, 232, 232, 255);
+border-right: 175px dotted rgba(232, 232, 232, 255);
+border-bottom: 0 dotted rgba(255,255,255,0);
+line-height: 0;
+
+
+background: url(../img/circuit.jpg) no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+    background-position: 0px 0px, center;
+}
+
+

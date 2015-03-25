@@ -26,17 +26,17 @@ $(document).ready(function() {
 
 
 
-  $('#brand, #brand-alt').removeClass('hidden');
-  $('#brand, #brand-alt').addClass('animated fadeIn');
+  $('#brand, #brand').removeClass('hidden');
+  $('#brand, #brand').addClass('animated fadeIn');
 
   $("#navigation").removeClass("hidden");
   $("#navigation").addClass("animated fadeIn");
 
-  $('#landing').removeClass('hidden');
-  $('#landing').addClass('animated fadeIn');
+  $('#landing, .triangle').removeClass('hidden');
+  $('#landing, .triangle').addClass('animated fadeIn');
 
-  $('#description').removeClass('hidden');
-  $('#description').addClass('animated zoomIn');
+  $('#summary .heading').removeClass('hidden');
+  $('#summary .heading').addClass('animated zoomIn');
 
   $('#quick-start').removeClass('hidden');
   $('#quick-start').addClass('animated fadeIn');
@@ -47,11 +47,7 @@ $(document).ready(function() {
   $('#featured').removeClass('hidden');
   $('#featured').addClass('animated fadeIn');
 
-  $('#special-event').removeClass('hidden');
-  $('#special-event').addClass('animated fadeIn');
 
-  $('#officers').removeClass('hidden');
-  $('#officers').addClass('animated fadeIn');
 
   $.getJSON(apiCall, function(data){
         $.each(data.items, function(i,item){
