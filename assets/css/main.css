@@ -101,19 +101,6 @@ a:after {
 
 
 
-/*
-#spacer:before
-		{
-			content: '';
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 100%;
-			background: rgba(64,64,64,0.2);
-		}
-*/
-
 
 
 
@@ -132,8 +119,45 @@ a:after {
 @media (min-width: 767px) {
 
   .navbar-nav {
-    float: right;
+    float: none;
+    text-align: center;
+    position: relative;
+    width: 400px;
   }
+
+  .nav>li {
+  display: inline-block;
+  }
+
+  .navbar-nav>li {
+  float: none;
+  }
+
+  .nav {
+    margin-left: 50%
+    left: 50%;
+  }
+
+
+  .nav>li>a {
+  padding-right: 1em;
+  }
+
+ /*
+
+  .navbar-default .navbar-nav > li > a {
+    right: -20px;
+  }
+
+  */
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  margin-left: 50%;
+    position: relative;
+    left: 50%;
+    top: 425px;
+    padding-left: 34px;
+  }
+
 
   body {
     padding-top: 0px;
@@ -143,15 +167,18 @@ a:after {
     background-color: rgba(0,0,0,0);
     position: absolute;
     z-index: 2;
-    width: 100%;
+    text-align: center;
+
+
   }
 
  .navbar-default .navbar-nav > li > a {
    color: #fff;
-   text-transform: lowercase;
-   font-weight: 600;
-   font-family: 'Raleway', sans-serif;
-   font-size: 1em;
+   text-transform: uppercase;
+   font-family: 'Fjalla One', sans-serif;
+
+
+   font-size: 1.25em;
  }
 
   .navbar-default .navbar-nav > li > a:hover {
@@ -278,10 +305,10 @@ a:after {
 
     padding-top: 50px;
     position: relative;
-		background: url(../img/circuit.jpg) no-repeat;
+		background: url(../img/osu/IMG_6933-12-EDITED.jpg) no-repeat;
 		background-attachment: fixed;
-		background-size: cover;
-    background-position: 0px 0px, center;
+		background-size: 110% auto;
+    background-position: -101.5px 0, center
 
 }
 
@@ -295,8 +322,45 @@ a:after {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: rgba(64,64,64,0.5);
+			background: rgba(64,64,64,0.2);
 		}
+
+
+
+
+.triangle {
+  position: relative;
+  margin: 0 auto -30px auto;
+  width: 0;
+  height: 0;
+  border-top: 30px solid rgba(64,64,64,0.2);
+  border-left: 175px dotted rgba(232, 232, 232, 255);
+  border-right: 175px dotted rgba(232, 232, 232, 255);
+  border-bottom: 0 dotted rgba(255,255,255,0);
+  line-height: 0;
+
+  background: url(../img/osu/IMG_6933-12-EDITED.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: 110% auto;
+  background-position: -101.5px 0, center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -346,8 +410,8 @@ a:after {
   width: 100%;
   height: auto;
   position: relative;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 114px;
+  padding-bottom: 114px;
 }
 
 #brand h1 {
@@ -366,18 +430,10 @@ a:after {
 
 
 
-#special-event .foreground img {
-    width: 75%;
-    height: auto;
-    position: relative;
-    padding-bottom: 50px;
-}
 
 
 
-#intro a {
-  color: #ccc;
-}
+
 
 
 
@@ -672,22 +728,50 @@ padding-bottom: 2em;
 
 
 
-.triangle {
-position: relative;
-margin: 0 auto -30px auto;
-width: 0;
-height: 0;
-border-top: 30px solid rgba(64,64,64,0.5);
-border-left: 175px dotted rgba(232, 232, 232, 255);
-border-right: 175px dotted rgba(232, 232, 232, 255);
-border-bottom: 0 dotted rgba(255,255,255,0);
-line-height: 0;
-
-
-background: url(../img/circuit.jpg) no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-    background-position: 0px 0px, center;
+hr {
+  border-top: 1px solid #bbb;
+  width: 80%;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+#agenda {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#agenda h1 {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+
+}
+
+
+#agenda p {
+  text-align: justify;
+}
+
+
+#agenda span {
+  text-align: left;39
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+#agenda .col-sm-6, #facts .col-md-6, #facts .col-lg-4 {
+  padding-bottom: 2em;
+}
+
+
+.schedule {
+  padding-left: 25%;
+  padding-right: 25%;
