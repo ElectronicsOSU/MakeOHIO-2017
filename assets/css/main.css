@@ -133,10 +133,7 @@ a:after {
   float: none;
   }
 
-  .nav {
-    margin-left: 50%
-    left: 50%;
-  }
+
 
 
   .nav>li>a {
@@ -693,34 +690,44 @@ padding-bottom: 2em;
 
 
 
-#facts {
+#faqs {
     padding-top: 50px;
     padding-bottom: 30px;
 }
 
-#facts h1 {
+#faqs h1 {
   text-transform: uppercase;
   padding-bottom: 1em;
 }
 
 
-#facts p {
+#faqs p {
   text-align: justify;
 }
 
 
-#facts span {
+#faqs span {
   text-align: left;
   font-size: 1.25em;
   font-weight: 700;
 }
 
-#facts .col-sm-6, #facts .col-md-6, #facts .col-lg-4 {
+#faqs .col-sm-6, #faqs .col-md-6, #faqs .col-lg-4 {
   padding-bottom: 2em;
 }
 
 
 
+#faqs a {
+  color: inherit;
+  font-weight: 400;
+}
+
+
+#faqs a:hover {
+ text-decoration: underline;
+
+}
 
 
 
@@ -767,7 +774,7 @@ hr {
   font-weight: 700;
 }
 
-#agenda .col-sm-6, #facts .col-md-6, #facts .col-lg-4 {
+#agenda .col-sm-6, #faqs .col-md-6, #faqs .col-lg-4 {
   padding-bottom: 2em;
 }
 
