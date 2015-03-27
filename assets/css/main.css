@@ -62,38 +62,11 @@ a:after {
 
 
 
+landin
 
 
 
 
-
-
-
-
-#footer {
-  position: relative;
-	background-color: #333;
-	background-size: cover;
-  background-position: 0 80vh, center;
-	padding-top: 20px;
-	padding-bottom: 0px;
-}
-
-
-
-
-
-
-#footer:before
-		{
-			content: '';
-			position: absolute;
-			left: 0;
-			top: 0;
-			width: 100%;
-			height: 100%;
-			background: rgba(64,64,64,0.2);
-		}
 
 
 
@@ -118,11 +91,21 @@ a:after {
 /* ---------- */
 @media (min-width: 767px) {
 
+
+
+  ul.nav.navbar-nav {
+    float: none;
+    margin: 0;
+  }
+
+
   .navbar-nav {
     float: none;
     text-align: center;
     position: relative;
     width: 400px;
+    margin: 0;
+    display: none;
   }
 
   .nav>li {
@@ -181,6 +164,11 @@ a:after {
   .navbar-default .navbar-nav > li > a:hover {
     color: rgb(224, 224, 224);
   }
+
+
+ .navbar-collapse.collapse {
+   display: none;
+ }
 
 
 }
@@ -300,14 +288,15 @@ a:after {
 
 #landing {
 
-    padding-top: 50px;
+
     position: relative;
-		background: url(../img/osu/IMG_6933-12-EDITED.jpg) no-repeat;
+		background: url(../img/circuit.jpg) no-repeat;
 		background-attachment: fixed;
-		background-size: 110% auto;
-    background-position: -101.5px 0, center
+		background-size: cover;
+    background-position: 0px 0px, center;
 
 }
+
 
 
 
@@ -319,8 +308,10 @@ a:after {
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: rgba(64,64,64,0.2);
+			background: rgba(64, 64, 64, 0.5);
 		}
+
+
 
 
 
@@ -330,16 +321,20 @@ a:after {
   margin: 0 auto -30px auto;
   width: 0;
   height: 0;
-  border-top: 30px solid rgba(64,64,64,0.2);
+  border-top: 30px solid rgba(64,64,64,0.5);
   border-left: 175px dotted rgba(232, 232, 232, 255);
   border-right: 175px dotted rgba(232, 232, 232, 255);
   border-bottom: 0 dotted rgba(255,255,255,0);
   line-height: 0;
+  position: relative;
+		background: url(../img/circuit.jpg) no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+    background-position: 0px 0px, center;
 
-  background: url(../img/osu/IMG_6933-12-EDITED.jpg) no-repeat;
-	background-attachment: fixed;
-	background-size: 110% auto;
-  background-position: -101.5px 0, center;
+
+
+
 }
 
 
@@ -353,6 +348,37 @@ a:after {
 
 
 
+
+.main-navigation {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.5em;
+  z-index: 5;
+  margin-top: -50px;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  left: -19px;
+}
+
+
+
+.main-navigation li {
+  display: inline-block;
+  z-index: 5;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.main-navigation li > a:hover {
+
+ color: rgb(224, 224, 224);
+}
+
+.main-navigation li > a {
+
+ color: inherit;
+}
 
 
 
@@ -407,8 +433,8 @@ a:after {
   width: 100%;
   height: auto;
   position: relative;
-  padding-top: 114px;
-  padding-bottom: 114px;
+  padding-top: 85px;
+  padding-bottom: 85px;
 }
 
 #brand h1 {
@@ -530,23 +556,6 @@ a:after {
   border-color: rgb(131, 0, 0);
 }
 
-.flickr-stream div {
-  float: left;
-  width: auto;
-  height: 135px;
-}
-
-.flickr-stream {
-  position: relative;
-  right: 50%;
-  width: auto;
-  height: 135px;
-  display: inline-flex;
-  z-index: -1;
-
-
-}
-
 
 
 #featured {
@@ -641,7 +650,9 @@ height: 135px;
 
 
 
-
+.heading a {
+  color: inherit;
+}
 
 
 
@@ -782,3 +793,39 @@ hr {
 .table-bordered {
   margin: 0 auto;
 }
+
+
+
+
+.navigation-container {
+ width: 100%;
+}
+
+
+
+
+
+#footer {
+  position: relative;
+	background-color: #333;
+	background-size: cover;
+  background-position: 0 80vh, center;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+
+
+
+
+
+#footer:before
+		{
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(64,64,64,0.2);
+		}

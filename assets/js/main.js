@@ -29,20 +29,13 @@ $(document).ready(function() {
   $('#brand, #brand').removeClass('hidden');
   $('#brand, #brand').addClass('animated fadeIn');
 
-  $("#navigation").removeClass("hidden");
-  $("#navigation").addClass("animated fadeIn");
+
 
   $('#landing, .triangle').removeClass('hidden');
   $('#landing, .triangle').addClass('animated fadeIn');
 
   $('#summary .heading').removeClass('hidden');
   $('#summary .heading').addClass('animated zoomIn');
-
-  $('#quick-start').removeClass('hidden');
-  $('#quick-start').addClass('animated fadeIn');
-
-  $('#meeting-time').removeClass('hidden');
-  $('#meeting-time').addClass('animated fadeIn');
 
   $('#featured').removeClass('hidden');
   $('#featured').addClass('animated fadeIn');
@@ -65,54 +58,5 @@ $(document).ready(function() {
 
 
 });
-
-
-
-// Calendar
-
-
-$(document).ready(function() {
-  $('#calendar').fullCalendar({
-
-    defaultView: 'basicWeek',
-    aspectRatio: 2,
-
-    header: {
-      left: 'prev,next today',
-    	center: 'title',
-    	right: 'month,agendaWeek,agendaDay'
-    },
-    googleCalendarApiKey: 'AIzaSyBu5kL2kgj9AZXCM8kfSLukPx1Vb7bRSh4',
-    events: {
-      googleCalendarId: 'electronicsosu@gmail.com',
-      timezone: 'America/New_York',
-    }
-  });
-});
-
-
-
-
-
-
-
-//$(document).ready(function() {
-//		$('.brand').addClass('animated bounceInUp');
-//});
-
-
-
-
-
-
-
-
-
-
-// jQuery(document).ready( function(){
-//    //jQuery('#flash').fadeIn(2000);
-//$('#brand img').addClass('animated zoominDown');
-//} );
-
 
 
