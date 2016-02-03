@@ -283,6 +283,37 @@ a:after {
     text-align: center;
   }
 
+  .primary-sponsors img {
+    max-width: 250px;
+  }
+
+  .secondary-sponsors img {
+    max-width: 200px;
+  }
+
+  #sponsors li:first-child {
+    padding-top: 0;
+  }
+
+
+  .secondary-sponsors ul {
+    padding-bottom: 0;
+  }
+
+
+  .primary-sponsors ul>li {
+    padding-bottom: 25px;
+  }
+
+  #faqs .col-sm-12>p, #faqs .col-md-12>p, #faqs .col-lg-12>p {
+    text-align: justify!important;
+    padding-bottom: 2em!important;
+  }
+
+  #faqs .col-sm-12>span, #faqs .col-md-12>span, #faqs .col-lg-12>span {
+    padding: 0 1em;
+  }
+
 }
 /* ---------- */
 
