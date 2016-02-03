@@ -363,28 +363,33 @@ a:after {
 
 
 
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    .triangle {
+      /*
+      position: relative;
+      margin: 0 auto -30px auto;
+      width: 0;
+      height: 0;
+      border-top: 30px solid rgba(64,64,64,0.5);
+      border-left: 175px dotted rgba(232, 232, 232, 255);
+      border-right: 175px dotted rgba(232, 232, 232, 255);
+      border-bottom: 0 dotted rgba(255,255,255,0);
+      line-height: 0;
 
 
-.triangle {
-  position: relative;
-  margin: 0 auto -30px auto;
-  width: 0;
-  height: 0;
-  border-top: 30px solid rgba(64,64,64,0.5);
-  border-left: 175px dotted rgba(232, 232, 232, 255);
-  border-right: 175px dotted rgba(232, 232, 232, 255);
-  border-bottom: 0 dotted rgba(255,255,255,0);
-  line-height: 0;
-  position: relative;
-		background: url(../img/circuit.jpg) no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-    background-position: 0px 0px, center;
+        position: relative;
+    		background: url(../img/circuit.jpg) no-repeat;
+    		background-attachment: fixed;
+    		background-size: cover;
+        background-position: 0px 0px, center;
+      */
+      display: none;
+    }
 
 
 
-
-}
+    }
 
 
 
