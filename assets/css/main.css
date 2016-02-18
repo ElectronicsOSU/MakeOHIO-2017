@@ -82,7 +82,7 @@ a:after {
 
 
 .secondary-sponsors ul {
-  height: 300px;
+  /*height: 300px; */
 }
 
 
@@ -94,15 +94,16 @@ a:after {
 .secondary-sponsors img {
 
   width: auto;
-  max-width: 300px;
+  max-width: 350px;
   height: auto;
+  max-height: 200px;
   text-decoration: none;
 }
 
 .primary-sponsors img {
 
   width: auto;
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   text-decoration: none;
 }
@@ -815,7 +816,7 @@ padding-bottom: 2em;
 
 
 #faqs a {
-  color: inherit;
+  color: #666;
   font-weight: 400;
 }
 
