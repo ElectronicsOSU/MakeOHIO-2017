@@ -22,6 +22,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Paragraph & Typographic */
 
+.project img {
+  position: relative;
+    float: left;
+    width:  300px;
+    height: 300px;
+}
+
 
 .centered {
   text-align: center;
