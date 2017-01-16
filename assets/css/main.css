@@ -802,7 +802,7 @@ body {
 
 
         #organizers {
-          padding-bottom: 70px;
+          padding-bottom: 140px;
           text-align: center;
           padding-right: 20px;
           padding-left: 20px;
@@ -830,7 +830,7 @@ body {
           width: auto;
           max-width: 300px;
           height: auto;
-          max-height: 70px;
+          max-height: 80px;
           text-decoration: none;
           text-align: center;
         }
