@@ -564,24 +564,24 @@ body {
 
 
 
-.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}
+.icons .fa-facebook,.icons .fa-facebook-square{background-color:#3C599F;}
 
 
 
-.social-icons .fa-flickr{background-color:#FF0084;}
+.icons .fa-flickr{background-color:#FF0084;}
 
 
-.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+.icons .fa-github,.icons .fa-github-alt,.icons .fa-github-square{background-color:#070709;}
 
 
-.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+.icons .fa-twitter,.icons .fa-twitter-square{background-color:#32CCFE;}
 
-.social-icons .fa-envelope, .fa-envelope-square, .fa-envelope-o {background-color:#E54D26;}
+.icons .fa-envelope, .fa-envelope-square, .fa-envelope-o {background-color:#E54D26;}
 
-.social-icons .fa-building-o, .fa-building {background-color:#C52F30;}
+.icons .fa-building-o, .fa-building {background-color:#C52F30;}
 
 
-.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
+.icons.icon-rotate .fa:hover, .icons.icon-rotate .fa:active {
   -webkit-transform: scale(1.1) rotate(360deg);
   -moz-transform: scale(1.1) rotate(360deg);
   -ms-transform: scale(1.1) rotate(360deg);
@@ -590,7 +590,7 @@ body {
 }
 
 
-.social-icons .fa {
+.icons .fa {
   width: 50px;
   height: 50px;
   line-height: 50px;
@@ -605,14 +605,14 @@ body {
 }
 
 
-.social-icons.icon-circle .fa{
+.icons.icon-circle .fa{
   border-radius: 50%;
   padding-bottom: 1opx;
 }
 
 
 
-.social-icons {
+.icons {
   font-size: 1.8em;
 }
 
