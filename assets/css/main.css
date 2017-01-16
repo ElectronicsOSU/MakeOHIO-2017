@@ -114,7 +114,7 @@ a:after {
 }
 
 #sponsors li {
-  padding-top: 50px;
+  padding-top: 0px;
   list-style-type: none;
   display: inline-block;
   text-align: center;
