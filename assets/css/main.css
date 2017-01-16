@@ -69,7 +69,7 @@ a:after {
 
 
 
-#sponsors {
+#s {
   padding-top: 0px;
   color: black;
 }
@@ -107,14 +107,14 @@ a:after {
   text-decoration: none;
 }
 
-#sponsors ul {
+#s ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 0;
 }
 
-#sponsors li {
+#s li {
   padding-top: 0px;
   list-style-type: none;
   display: inline-block;
@@ -129,12 +129,12 @@ a:after {
 
 
 
-#sponsors .col-sm-6m ul, #sponsors .col-md-6 ul, #sponsors .col-lg-6 ul{
+#s .col-sm-6m ul, #s .col-md-6 ul, #s .col-lg-6 ul{
   padding: 0!important;
 }
 
 
-#sponsors .col-sm-6m, #sponsors .col-md-6, #sponsors .col-lg-6{
+#s .col-sm-6m, #s .col-md-6, #s .col-lg-6{
   padding: 0!important;
 }
 
@@ -298,7 +298,7 @@ body {
     max-width: 300px;
   }
 
-  #sponsors li:first-child {
+  #s li:first-child {
     padding-top: 0;
   }
 
