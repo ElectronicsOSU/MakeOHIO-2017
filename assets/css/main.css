@@ -71,6 +71,7 @@ a:after {
 
 #sponsors {
   padding-top: 0px;
+  color: black;
 }
 
 
@@ -759,7 +760,7 @@ body {
           padding-left: 20px;
           padding-top: 70px;
           background-color: rgba(148, 148, 148, 0.1);
-          color: #333;
+          color: black;
         }
 
         #summary h1 {
@@ -806,7 +807,7 @@ body {
           padding-right: 20px;
           padding-left: 20px;
           padding-top: 70px;
-          color: #333;
+          color: black;
         }
 
         #organizers h1 {
@@ -878,6 +879,7 @@ body {
 
         #faqs {
           padding-top: 50px;
+          color: black;
           padding-bottom: 30px;
         }
 
