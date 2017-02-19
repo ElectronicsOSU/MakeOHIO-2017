@@ -637,6 +637,9 @@ body {
 
 
 .btn-default {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
   background-color: rgb(187, 0, 0);
   color: rgb(239, 239, 239);
   border-color: rgb(150, 0, 0);
@@ -814,7 +817,7 @@ body {
           text-align: center;
           padding-right: 20px;
           padding-left: 20px;
-          padding-top: 70px;
+          padding-top: 50px;
           background-color: rgba(148, 148, 148, 0.1);
           color: black;
         }
