@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+/* This file contains CSS related to responsiveness (browser size changes, grids, etc.) */
+
+.container {
+	margin: 0px auto;
+	width: 60%;
+}
+
+.section {
+	clear: both;
+}
+
+.col {
+	display: inline block;
+}
+.col:first-child {
+	margin-left: 0;
+}
+
+.grp:before, .grp:after {
+	display: table;
+}
+
+.grp:after { 
+	clear: both;
+}
+
+.half {
+	padding: 2%;
+	width: 46%;
+	float: left;
+}
+
+@media only screen and (max-width: 1500px) {
+	.container {
+		width: 100%;
+	}
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+	.half {
+		width: 100%;
+	}
+}
+
+@media (min-width: 767px) {
+    ul.nav.navbar-nav {
+    float: none;
+    margin: 0;
+    }
+
+    .navbar-nav {
+    float: none;
+    text-align: center;
+    position: relative;
+    width: 400px;
+    margin: 0;
+    display: none;
+    }
+
+    .nav>li {
+    display: inline-block;
+    }
+
+    .navbar-nav>li {
+    float: none;
+    }
+
+    .nav>li>a {
+    padding-right: 1em;
+    }
+
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    margin-left: 50%;
+    position: relative;
+    left: 50%;
+    top: 425px;
+    padding-left: 34px;
+  }
+
+  body {
+    padding-top: 0px;
+  }
+
+  .navbar-default {
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.25em;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover {
+    color: rgb(224, 224, 224);
+  }
+
+  .navbar-collapse.collapse {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default {
+    background-color: #333;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: #474747;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #3d3d3d;
+  }
+
+  .navbar-default .navbar-toggle:hover {
+    background-color: #474747;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    color: rgb(239, 239, 239);
+    text-transform: lowercase;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover {
+    color: rgb(194, 194, 194);
+  }
+
+  .navbar-default .navbar-toggle:focus {
+    background-color: #474747;
+  }
+
+  .navbar-collapse {
+    box-shadow: none;
+  }
+
+  .navbar-default {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .navbar-nav {
+    float: none;
+    text-align: center;
+  }
+
+  .primary-sponsors img {
+    max-width: 250px;
+  }
+
+  .secondary-sponsors img {
+    max-width: 300px;
+  }
+}
